@@ -1,0 +1,1032 @@
+{
+  "title": "4 Steps Infographic",
+  "source_url": "https://www.youtube.com/watch?v=jDScsOFi4G4",
+  "note": "White 4-step hub infographic rebuilt from the tutorial. Thumbnail P-logo omitted.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": "FFFFFF"
+  },
+  "defaults": {
+    "name": "Calibri",
+    "size": 12,
+    "color": "1A1A1A"
+  },
+  "transition": "fade",
+  "shapes": [
+    {
+      "id": "arc1",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "45616F",
+        "width": 10,
+        "round_ends": true
+      },
+      "points": [
+        [
+          3.9952,
+          2.331
+        ],
+        [
+          4.0755,
+          2.3505
+        ],
+        [
+          4.1545,
+          2.3747
+        ],
+        [
+          4.2319,
+          2.4034
+        ],
+        [
+          4.3076,
+          2.4366
+        ],
+        [
+          4.3812,
+          2.4741
+        ],
+        [
+          4.4525,
+          2.5158
+        ],
+        [
+          4.5212,
+          2.5616
+        ],
+        [
+          4.5872,
+          2.6113
+        ],
+        [
+          4.6502,
+          2.6647
+        ],
+        [
+          4.7099,
+          2.7218
+        ],
+        [
+          4.7662,
+          2.7822
+        ],
+        [
+          4.819,
+          2.8458
+        ]
+      ]
+    },
+    {
+      "id": "arc2",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "FAB10A",
+        "width": 10,
+        "round_ends": true
+      },
+      "points": [
+        [
+          4.8772,
+          2.9259
+        ],
+        [
+          4.9172,
+          2.9886
+        ],
+        [
+          4.9538,
+          3.0534
+        ],
+        [
+          4.987,
+          3.1199
+        ],
+        [
+          5.0166,
+          3.1881
+        ],
+        [
+          5.0426,
+          3.2577
+        ],
+        [
+          5.065,
+          3.3286
+        ],
+        [
+          5.0836,
+          3.4006
+        ],
+        [
+          5.0984,
+          3.4734
+        ],
+        [
+          5.1094,
+          3.5469
+        ],
+        [
+          5.1165,
+          3.6209
+        ],
+        [
+          5.1198,
+          3.6952
+        ],
+        [
+          5.1191,
+          3.7696
+        ]
+      ]
+    },
+    {
+      "id": "arc3",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "5ECFD7",
+        "width": 10,
+        "round_ends": true
+      },
+      "points": [
+        [
+          5.1062,
+          3.9176
+        ],
+        [
+          5.0939,
+          3.9909
+        ],
+        [
+          5.0778,
+          4.0635
+        ],
+        [
+          5.058,
+          4.1352
+        ],
+        [
+          5.0344,
+          4.2057
+        ],
+        [
+          5.0071,
+          4.2748
+        ],
+        [
+          4.9763,
+          4.3425
+        ],
+        [
+          4.942,
+          4.4084
+        ],
+        [
+          4.9042,
+          4.4725
+        ],
+        [
+          4.8632,
+          4.5345
+        ],
+        [
+          4.819,
+          4.5942
+        ],
+        [
+          4.7717,
+          4.6516
+        ],
+        [
+          4.7215,
+          4.7064
+        ]
+      ]
+    },
+    {
+      "id": "arc4",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "E1431E",
+        "width": 10,
+        "round_ends": true
+      },
+      "points": [
+        [
+          4.6128,
+          4.8078
+        ],
+        [
+          4.5446,
+          4.8615
+        ],
+        [
+          4.4734,
+          4.9109
+        ],
+        [
+          4.3992,
+          4.9559
+        ],
+        [
+          4.3225,
+          4.9963
+        ],
+        [
+          4.2434,
+          5.0319
+        ],
+        [
+          4.1623,
+          5.0626
+        ],
+        [
+          4.0795,
+          5.0884
+        ],
+        [
+          3.9952,
+          5.109
+        ],
+        [
+          3.9099,
+          5.1244
+        ],
+        [
+          3.8238,
+          5.1346
+        ],
+        [
+          3.7372,
+          5.1395
+        ],
+        [
+          3.6504,
+          5.1391
+        ]
+      ]
+    },
+    {
+      "id": "hub",
+      "type": "oval",
+      "x": 2.35,
+      "y": 2.37,
+      "w": 2.7,
+      "h": 2.7,
+      "fill": "FFFFFF",
+      "shadow": {
+        "blur": 20,
+        "dist": 8,
+        "alpha": 0.16,
+        "dir": 5400000
+      }
+    },
+    {
+      "id": "hub_title",
+      "type": "text",
+      "x": 2.5,
+      "y": 3.02,
+      "w": 2.4,
+      "h": 0.42,
+      "text": "Infographic",
+      "font": {
+        "name": "Calibri",
+        "size": 24,
+        "bold": true,
+        "color": "1A1A1A",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hub_body",
+      "type": "text",
+      "x": 2.65,
+      "y": 3.52,
+      "w": 2.1,
+      "h": 1.0,
+      "text": "The quick brown fox jumps\nover the lazy dog. The quick\nbrown fox jumps over the lazy dog.",
+      "font": {
+        "name": "Calibri",
+        "size": 11,
+        "color": "333333",
+        "align": "center",
+        "anchor": "top",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "spine",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "222222",
+        "width": 1.25
+      },
+      "points": [
+        [
+          2.9097,
+          2.0252
+        ],
+        [
+          3.16,
+          1.9297
+        ],
+        [
+          3.4213,
+          1.8709
+        ],
+        [
+          3.6883,
+          1.85
+        ],
+        [
+          3.9556,
+          1.8676
+        ],
+        [
+          4.2177,
+          1.9231
+        ],
+        [
+          4.4691,
+          2.0155
+        ],
+        [
+          4.7048,
+          2.1429
+        ],
+        [
+          4.9198,
+          2.3026
+        ],
+        [
+          5.1098,
+          2.4914
+        ],
+        [
+          5.2708,
+          2.7054
+        ],
+        [
+          5.3997,
+          2.9403
+        ],
+        [
+          5.4937,
+          3.1911
+        ],
+        [
+          5.5508,
+          3.4528
+        ],
+        [
+          5.57,
+          3.72
+        ],
+        [
+          5.5508,
+          3.9872
+        ],
+        [
+          5.4937,
+          4.2489
+        ],
+        [
+          5.3997,
+          4.4997
+        ],
+        [
+          5.2708,
+          4.7346
+        ],
+        [
+          5.1098,
+          4.9486
+        ],
+        [
+          4.9198,
+          5.1374
+        ],
+        [
+          4.7048,
+          5.2971
+        ],
+        [
+          4.4691,
+          5.4245
+        ],
+        [
+          4.2177,
+          5.5169
+        ],
+        [
+          3.9556,
+          5.5724
+        ],
+        [
+          3.6883,
+          5.59
+        ],
+        [
+          3.4213,
+          5.5691
+        ],
+        [
+          3.16,
+          5.5103
+        ],
+        [
+          2.9097,
+          5.4148
+        ]
+      ]
+    },
+    {
+      "id": "end_top",
+      "type": "oval",
+      "x": 2.8547,
+      "y": 1.9702,
+      "w": 0.11,
+      "h": 0.11,
+      "fill": "222222"
+    },
+    {
+      "id": "end_bot",
+      "type": "oval",
+      "x": 2.8547,
+      "y": 5.3598,
+      "w": 0.11,
+      "h": 0.11,
+      "fill": "222222"
+    },
+    {
+      "id": "node1",
+      "type": "oval",
+      "x": 4.5909,
+      "y": 2.0342,
+      "w": 0.2,
+      "h": 0.2,
+      "fill": "45616F"
+    },
+    {
+      "id": "lead1",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "222222",
+        "width": 1.25
+      },
+      "points": [
+        [
+          4.6909,
+          2.1342
+        ],
+        [
+          6.47,
+          2.1342
+        ]
+      ]
+    },
+    {
+      "id": "pill1",
+      "type": "roundRect",
+      "x": 6.79,
+      "y": 1.7042,
+      "w": 3.85,
+      "h": 0.86,
+      "fill": "45616F",
+      "adj": 0.5,
+      "shadow": {
+        "blur": 10,
+        "dist": 4,
+        "alpha": 0.15
+      }
+    },
+    {
+      "id": "badge1",
+      "type": "oval",
+      "x": 6.47,
+      "y": 1.7542,
+      "w": 0.76,
+      "h": 0.76,
+      "fill": "FFFFFF",
+      "shadow": {
+        "blur": 8,
+        "dist": 3,
+        "alpha": 0.12
+      }
+    },
+    {
+      "id": "num1",
+      "type": "text",
+      "x": 6.47,
+      "y": 1.7542,
+      "w": 0.76,
+      "h": 0.76,
+      "text": "01",
+      "font": {
+        "name": "Calibri",
+        "size": 16,
+        "bold": true,
+        "color": "1A1A1A",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "copy1",
+      "type": "text",
+      "x": 7.29,
+      "y": 1.7442,
+      "w": 2.8099999999999996,
+      "h": 0.78,
+      "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.",
+      "wrap": true,
+      "font": {
+        "name": "Calibri",
+        "size": 9,
+        "color": "FFFFFF",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "node2",
+      "type": "oval",
+      "x": 5.3785,
+      "y": 3.0421,
+      "w": 0.2,
+      "h": 0.2,
+      "fill": "FAB10A"
+    },
+    {
+      "id": "lead2",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "222222",
+        "width": 1.25
+      },
+      "points": [
+        [
+          5.4785,
+          3.1421
+        ],
+        [
+          7.17,
+          3.1421
+        ]
+      ]
+    },
+    {
+      "id": "pill2",
+      "type": "roundRect",
+      "x": 7.49,
+      "y": 2.7121,
+      "w": 3.85,
+      "h": 0.86,
+      "fill": "FAB10A",
+      "adj": 0.5,
+      "shadow": {
+        "blur": 10,
+        "dist": 4,
+        "alpha": 0.15
+      }
+    },
+    {
+      "id": "badge2",
+      "type": "oval",
+      "x": 7.17,
+      "y": 2.7621,
+      "w": 0.76,
+      "h": 0.76,
+      "fill": "FFFFFF",
+      "shadow": {
+        "blur": 8,
+        "dist": 3,
+        "alpha": 0.12
+      }
+    },
+    {
+      "id": "num2",
+      "type": "text",
+      "x": 7.17,
+      "y": 2.7621,
+      "w": 0.76,
+      "h": 0.76,
+      "text": "02",
+      "font": {
+        "name": "Calibri",
+        "size": 16,
+        "bold": true,
+        "color": "1A1A1A",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "copy2",
+      "type": "text",
+      "x": 7.99,
+      "y": 2.7521,
+      "w": 2.8099999999999996,
+      "h": 0.78,
+      "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.",
+      "wrap": true,
+      "font": {
+        "name": "Calibri",
+        "size": 9,
+        "color": "FFFFFF",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "node3",
+      "type": "oval",
+      "x": 5.3572,
+      "y": 4.2596,
+      "w": 0.2,
+      "h": 0.2,
+      "fill": "5ECFD7"
+    },
+    {
+      "id": "lead3",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "222222",
+        "width": 1.25
+      },
+      "points": [
+        [
+          5.4572,
+          4.3596
+        ],
+        [
+          7.24,
+          4.3596
+        ]
+      ]
+    },
+    {
+      "id": "pill3",
+      "type": "roundRect",
+      "x": 7.56,
+      "y": 3.9296,
+      "w": 3.85,
+      "h": 0.86,
+      "fill": "5ECFD7",
+      "adj": 0.5,
+      "shadow": {
+        "blur": 10,
+        "dist": 4,
+        "alpha": 0.15
+      }
+    },
+    {
+      "id": "badge3",
+      "type": "oval",
+      "x": 7.24,
+      "y": 3.9796,
+      "w": 0.76,
+      "h": 0.76,
+      "fill": "FFFFFF",
+      "shadow": {
+        "blur": 8,
+        "dist": 3,
+        "alpha": 0.12
+      }
+    },
+    {
+      "id": "num3",
+      "type": "text",
+      "x": 7.24,
+      "y": 3.9796,
+      "w": 0.76,
+      "h": 0.76,
+      "text": "03",
+      "font": {
+        "name": "Calibri",
+        "size": 16,
+        "bold": true,
+        "color": "1A1A1A",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "copy3",
+      "type": "text",
+      "x": 8.06,
+      "y": 3.9696,
+      "w": 2.8099999999999996,
+      "h": 0.78,
+      "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.",
+      "wrap": true,
+      "font": {
+        "name": "Calibri",
+        "size": 9,
+        "color": "FFFFFF",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "node4",
+      "type": "oval",
+      "x": 4.5909,
+      "y": 5.2058,
+      "w": 0.2,
+      "h": 0.2,
+      "fill": "E1431E"
+    },
+    {
+      "id": "lead4",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "222222",
+        "width": 1.25
+      },
+      "points": [
+        [
+          4.6909,
+          5.3058
+        ],
+        [
+          6.77,
+          5.3058
+        ]
+      ]
+    },
+    {
+      "id": "pill4",
+      "type": "roundRect",
+      "x": 7.09,
+      "y": 4.8758,
+      "w": 3.85,
+      "h": 0.86,
+      "fill": "E1431E",
+      "adj": 0.5,
+      "shadow": {
+        "blur": 10,
+        "dist": 4,
+        "alpha": 0.15
+      }
+    },
+    {
+      "id": "badge4",
+      "type": "oval",
+      "x": 6.77,
+      "y": 4.9258,
+      "w": 0.76,
+      "h": 0.76,
+      "fill": "FFFFFF",
+      "shadow": {
+        "blur": 8,
+        "dist": 3,
+        "alpha": 0.12
+      }
+    },
+    {
+      "id": "num4",
+      "type": "text",
+      "x": 6.77,
+      "y": 4.9258,
+      "w": 0.76,
+      "h": 0.76,
+      "text": "04",
+      "font": {
+        "name": "Calibri",
+        "size": 16,
+        "bold": true,
+        "color": "1A1A1A",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "copy4",
+      "type": "text",
+      "x": 7.59,
+      "y": 4.9158,
+      "w": 2.8099999999999996,
+      "h": 0.78,
+      "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.",
+      "wrap": true,
+      "font": {
+        "name": "Calibri",
+        "size": 9,
+        "color": "FFFFFF",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    }
+  ],
+  "animations": [
+    {
+      "steps": [
+        {
+          "targets": [
+            "hub",
+            "hub_title",
+            "hub_body"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "start": "on_click"
+        },
+        {
+          "targets": [
+            "spine",
+            "end_top",
+            "end_bot"
+          ],
+          "effect": "wipe_right",
+          "dur": 500,
+          "delay": 80,
+          "start": "after_previous"
+        },
+        {
+          "target": "arc1",
+          "effect": "wipe_right",
+          "dur": 500,
+          "start": "after_previous"
+        },
+        {
+          "target": "lead1",
+          "effect": "wipe_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "with_previous"
+        },
+        {
+          "target": "node1",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "badge1",
+            "num1"
+          ],
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 200,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "pill1",
+            "copy1"
+          ],
+          "effect": "peek_in_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "target": "arc2",
+          "effect": "wipe_right",
+          "dur": 500,
+          "start": "after_previous"
+        },
+        {
+          "target": "lead2",
+          "effect": "wipe_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "with_previous"
+        },
+        {
+          "target": "node2",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "badge2",
+            "num2"
+          ],
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 200,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "pill2",
+            "copy2"
+          ],
+          "effect": "peek_in_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "target": "arc3",
+          "effect": "wipe_right",
+          "dur": 500,
+          "start": "after_previous"
+        },
+        {
+          "target": "lead3",
+          "effect": "wipe_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "with_previous"
+        },
+        {
+          "target": "node3",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "badge3",
+            "num3"
+          ],
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 200,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "pill3",
+            "copy3"
+          ],
+          "effect": "peek_in_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "target": "arc4",
+          "effect": "wipe_right",
+          "dur": 500,
+          "start": "after_previous"
+        },
+        {
+          "target": "lead4",
+          "effect": "wipe_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "with_previous"
+        },
+        {
+          "target": "node4",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "badge4",
+            "num4"
+          ],
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 200,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "pill4",
+            "copy4"
+          ],
+          "effect": "peek_in_right",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        }
+      ]
+    }
+  ]
+}

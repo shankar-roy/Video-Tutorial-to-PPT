@@ -122,7 +122,10 @@ def draw_shape_on(layer, canvas: Canvas, spec: dict, color, outline=None, width=
     elif kind in ("oval", "donut"):
         draw.ellipse(box, fill=color, outline=outline, width=width)
     elif kind == "pie":
-        draw.pieslice(box, start=0, end=180, fill=color, outline=outline, width=width)
+        adj = spec.get("adj", [0, 162])
+        values = adj if isinstance(adj, (list, tuple)) else [0, adj]
+        sweep = float(values[1] if len(values) > 1 else 162) / 54.0 * 90.0
+        draw.pieslice(box, start=0, end=max(1, sweep), fill=color, outline=outline, width=width)
     elif kind == "chord":
         draw.chord(box, start=0, end=180, fill=color, outline=outline, width=width)
     elif kind == "arc":
@@ -131,6 +134,23 @@ def draw_shape_on(layer, canvas: Canvas, spec: dict, color, outline=None, width=
         x0, y0, x1, y1 = box
         draw.polygon([(x0 + (x1 - x0) / 2, y0), (x1, y1), (x0, y1)],
                      fill=color, outline=outline)
+    elif kind in ("arrowRight", "chevron"):
+        x0, y0, x1, y1 = box
+        mid = (y0 + y1) / 2
+        head = x0 + (x1 - x0) * 0.55
+        draw.polygon(
+            [(x0, y0 + (y1 - y0) * 0.18), (head, y0 + (y1 - y0) * 0.18),
+             (head, y0), (x1, mid), (head, y1),
+             (head, y1 - (y1 - y0) * 0.18), (x0, y1 - (y1 - y0) * 0.18)],
+            fill=color, outline=outline,
+        )
+    elif kind == "teardrop":
+        x0, y0, x1, y1 = box
+        draw.ellipse([x0, y0, x1, y0 + (y1 - y0) * 0.72], fill=color, outline=outline)
+        cx = (x0 + x1) / 2
+        draw.polygon([(x0 + (x1 - x0) * 0.22, y0 + (y1 - y0) * 0.55),
+                      (x1 - (x1 - x0) * 0.22, y0 + (y1 - y0) * 0.55),
+                      (cx, y1)], fill=color, outline=outline)
     elif kind == "diamond":
         x0, y0, x1, y1 = box
         cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
@@ -219,17 +239,22 @@ def render(spec: dict, dest: Path, scale: float, index: int) -> Path:
 
     shapes = slide.get("shapes", [])
     for shape_spec in shapes:
-        shadow = shape_spec.get("shadow")
-        if not shadow:
+        shadow_spec = shape_spec.get("shadow")
+        if not shadow_spec:
             continue
-        offset = shadow.get("dist", 4) * canvas.scale / 72.0
-        layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
-        moved = dict(shape_spec)
-        moved["y"] = shape_spec.get("y", 0) + offset / canvas.scale
-        alpha = int(float(shadow.get("alpha", 0.25)) * 255)
-        draw_shape_on(layer, canvas, moved, rgb(shadow.get("color", "000000")) + (alpha,))
-        blur = max(1, shadow.get("blur", 12) * canvas.scale / 72.0 / 2)
-        canvas.shadows.alpha_composite(layer.filter(ImageFilter.GaussianBlur(blur)))
+        for shadow in shadow_spec if isinstance(shadow_spec, list) else [shadow_spec]:
+            if str(shadow.get("type", "outer")).lower() == "inner":
+                continue  # layout check only; Pillow has no inner-shadow equivalent
+            dist = shadow.get("dist", 4) / 72.0
+            angle = math.radians(shadow.get("dir", 5400000) / 60000.0)
+            layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+            moved = dict(shape_spec)
+            moved["x"] = shape_spec.get("x", 0) + dist * math.cos(angle)
+            moved["y"] = shape_spec.get("y", 0) + dist * math.sin(angle)
+            alpha = int(float(shadow.get("alpha", 0.25)) * 255)
+            draw_shape_on(layer, canvas, moved, rgb(shadow.get("color", "000000")) + (alpha,))
+            blur = max(1, shadow.get("blur", 12) * canvas.scale / 72.0 / 2)
+            canvas.shadows.alpha_composite(layer.filter(ImageFilter.GaussianBlur(blur)))
 
     canvas.base.alpha_composite(canvas.shadows)
 

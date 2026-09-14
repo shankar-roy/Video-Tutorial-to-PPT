@@ -1,0 +1,764 @@
+{
+  "title": "KPI Dashboard",
+  "source_url": "https://www.youtube.com/watch?v=uVTSV9-TigE",
+  "note": "Neumorphic KPI dashboard rebuilt from tutorial frames. Palette from the video: ECF0F3 / FFFFFF / D1D9E6.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": "ECF0F3"
+  },
+  "defaults": {
+    "name": "Calibri",
+    "size": 12,
+    "color": "A8B6C3"
+  },
+  "transition": "fade",
+  "shapes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 1.5,
+      "y": 0.28,
+      "w": 10.333,
+      "h": 0.62,
+      "text": "KPI Dashboard",
+      "font": {
+        "name": "Calibri Light",
+        "size": 44,
+        "color": "A8B6C3",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "x": 1.2,
+      "y": 0.94,
+      "w": 10.933,
+      "h": 0.58,
+      "text": "Here You Can Add Some Brief Text to Explain The Title\nThis is Just a Demo So Consider Replacing This",
+      "font": {
+        "name": "Calibri",
+        "size": 12,
+        "color": "B4BCC6",
+        "align": "center",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "sales1_dk",
+      "type": "roundRect",
+      "x": 0.435,
+      "y": 1.94,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "D1D9E6",
+      "adj": 0.18
+    },
+    {
+      "id": "sales1_lt",
+      "type": "roundRect",
+      "x": 0.34,
+      "y": 1.845,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "FFFFFF",
+      "adj": 0.18
+    },
+    {
+      "id": "sales1",
+      "type": "roundRect",
+      "x": 0.38,
+      "y": 1.88,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "ECF0F3",
+      "adj": 0.18
+    },
+    {
+      "id": "sales1_h",
+      "type": "text",
+      "x": 0.66,
+      "y": 2.1,
+      "w": 3.4865,
+      "h": 0.36,
+      "text": "150000 Sales",
+      "font": {
+        "name": "Calibri Light",
+        "size": 22,
+        "color": "A8B6C3",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sales1_b",
+      "type": "text",
+      "x": 0.66,
+      "y": 2.46,
+      "w": 3.4364999999999997,
+      "h": 0.5,
+      "text": "Add Some Brief Text to Explain the\nTopic This is Just a Demo",
+      "font": {
+        "name": "Calibri",
+        "size": 11,
+        "color": "B4BCC6",
+        "align": "left",
+        "anchor": "top",
+        "line_spacing": 1.08
+      }
+    },
+    {
+      "id": "sales1_trk",
+      "type": "roundRect",
+      "x": 0.7,
+      "y": 3.26,
+      "w": 2.5365,
+      "h": 0.1,
+      "fill": "C3CBD6",
+      "adj": 0.5
+    },
+    {
+      "id": "sales1_knob_r",
+      "type": "oval",
+      "x": 2.0812,
+      "y": 3.22,
+      "w": 0.22,
+      "h": 0.22,
+      "fill": "D1D9E6"
+    },
+    {
+      "id": "sales1_knob",
+      "type": "oval",
+      "x": 2.0612,
+      "y": 3.2,
+      "w": 0.22,
+      "h": 0.22,
+      "fill": "FFFFFF"
+    },
+    {
+      "id": "donut1_dk",
+      "type": "roundRect",
+      "x": 4.7015,
+      "y": 1.94,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "D1D9E6",
+      "adj": 0.22
+    },
+    {
+      "id": "donut1_lt",
+      "type": "roundRect",
+      "x": 4.6065,
+      "y": 1.845,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "FFFFFF",
+      "adj": 0.22
+    },
+    {
+      "id": "donut1",
+      "type": "roundRect",
+      "x": 4.6465,
+      "y": 1.88,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "ECF0F3",
+      "adj": 0.22
+    },
+    {
+      "id": "ring1",
+      "type": "oval",
+      "x": 5.0165,
+      "y": 2.285,
+      "w": 1.14,
+      "h": 1.14,
+      "fill": "A8B4C2"
+    },
+    {
+      "id": "ring1_mid",
+      "type": "oval",
+      "x": 5.1565,
+      "y": 2.425,
+      "w": 0.86,
+      "h": 0.86,
+      "fill": "DDE2E8"
+    },
+    {
+      "id": "ring1_hole",
+      "type": "oval",
+      "x": 5.3065,
+      "y": 2.575,
+      "w": 0.56,
+      "h": 0.56,
+      "fill": "ECF0F3"
+    },
+    {
+      "id": "sales2_dk",
+      "type": "roundRect",
+      "x": 6.8615,
+      "y": 1.94,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "D1D9E6",
+      "adj": 0.18
+    },
+    {
+      "id": "sales2_lt",
+      "type": "roundRect",
+      "x": 6.7665,
+      "y": 1.845,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "FFFFFF",
+      "adj": 0.18
+    },
+    {
+      "id": "sales2",
+      "type": "roundRect",
+      "x": 6.8065,
+      "y": 1.88,
+      "w": 3.9865,
+      "h": 1.95,
+      "fill": "ECF0F3",
+      "adj": 0.18
+    },
+    {
+      "id": "sales2_h",
+      "type": "text",
+      "x": 7.0865,
+      "y": 2.1,
+      "w": 3.4865,
+      "h": 0.36,
+      "text": "250000 Sales",
+      "font": {
+        "name": "Calibri Light",
+        "size": 22,
+        "color": "A8B6C3",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sales2_b",
+      "type": "text",
+      "x": 7.0865,
+      "y": 2.46,
+      "w": 3.4364999999999997,
+      "h": 0.5,
+      "text": "Add Some Brief Text to Explain the\nTopic This is Just a Demo",
+      "font": {
+        "name": "Calibri",
+        "size": 11,
+        "color": "B4BCC6",
+        "align": "left",
+        "anchor": "top",
+        "line_spacing": 1.08
+      }
+    },
+    {
+      "id": "sales2_trk",
+      "type": "roundRect",
+      "x": 7.1265,
+      "y": 3.26,
+      "w": 2.5365,
+      "h": 0.1,
+      "fill": "C3CBD6",
+      "adj": 0.5
+    },
+    {
+      "id": "sales2_knob_r",
+      "type": "oval",
+      "x": 8.8628,
+      "y": 3.22,
+      "w": 0.22,
+      "h": 0.22,
+      "fill": "D1D9E6"
+    },
+    {
+      "id": "sales2_knob",
+      "type": "oval",
+      "x": 8.8428,
+      "y": 3.2,
+      "w": 0.22,
+      "h": 0.22,
+      "fill": "FFFFFF"
+    },
+    {
+      "id": "donut2_dk",
+      "type": "roundRect",
+      "x": 11.128,
+      "y": 1.94,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "D1D9E6",
+      "adj": 0.22
+    },
+    {
+      "id": "donut2_lt",
+      "type": "roundRect",
+      "x": 11.033,
+      "y": 1.845,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "FFFFFF",
+      "adj": 0.22
+    },
+    {
+      "id": "donut2",
+      "type": "roundRect",
+      "x": 11.073,
+      "y": 1.88,
+      "w": 1.88,
+      "h": 1.95,
+      "fill": "ECF0F3",
+      "adj": 0.22
+    },
+    {
+      "id": "ring2",
+      "type": "oval",
+      "x": 11.443,
+      "y": 2.285,
+      "w": 1.14,
+      "h": 1.14,
+      "fill": "A8B4C2"
+    },
+    {
+      "id": "ring2_mid",
+      "type": "oval",
+      "x": 11.583,
+      "y": 2.425,
+      "w": 0.86,
+      "h": 0.86,
+      "fill": "DDE2E8"
+    },
+    {
+      "id": "ring2_hole",
+      "type": "oval",
+      "x": 11.733,
+      "y": 2.575,
+      "w": 0.56,
+      "h": 0.56,
+      "fill": "ECF0F3"
+    },
+    {
+      "id": "proj1_dk",
+      "type": "roundRect",
+      "x": 0.435,
+      "y": 4.24,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "D1D9E6",
+      "adj": 0.12
+    },
+    {
+      "id": "proj1_lt",
+      "type": "roundRect",
+      "x": 0.34,
+      "y": 4.145,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "FFFFFF",
+      "adj": 0.12
+    },
+    {
+      "id": "proj1",
+      "type": "roundRect",
+      "x": 0.38,
+      "y": 4.18,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "ECF0F3",
+      "adj": 0.12
+    },
+    {
+      "id": "proj1_h",
+      "type": "text",
+      "x": 0.76,
+      "y": 4.3999999999999995,
+      "w": 5.3865,
+      "h": 0.38,
+      "text": "Project Name",
+      "font": {
+        "name": "Calibri Light",
+        "size": 24,
+        "color": "A8B6C3",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "proj1_b",
+      "type": "text",
+      "x": 0.76,
+      "y": 4.8,
+      "w": 5.3865,
+      "h": 0.5,
+      "text": "Add Some Brief Text to Explain the\nTopic This is Just a Demo",
+      "font": {
+        "name": "Calibri",
+        "size": 12,
+        "color": "B4BCC6",
+        "align": "left",
+        "anchor": "top",
+        "line_spacing": 1.08
+      }
+    },
+    {
+      "id": "proj1_seg0",
+      "type": "roundRect",
+      "x": 0.93,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_seg1",
+      "type": "roundRect",
+      "x": 1.7811,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_seg2",
+      "type": "roundRect",
+      "x": 2.6322,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_seg3",
+      "type": "roundRect",
+      "x": 3.4833,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_seg4",
+      "type": "roundRect",
+      "x": 4.3343,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_seg5",
+      "type": "roundRect",
+      "x": 5.1854,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj1_mark",
+      "type": "triangle",
+      "x": 2.9377,
+      "y": 5.92,
+      "w": 0.2,
+      "h": 0.16,
+      "fill": "A8B4C2"
+    },
+    {
+      "id": "proj1_v",
+      "type": "text",
+      "x": 2.4877,
+      "y": 6.0600000000000005,
+      "w": 1.08,
+      "h": 0.28,
+      "text": "52525",
+      "font": {
+        "name": "Calibri",
+        "size": 13,
+        "color": "A8B6C3",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "proj2_dk",
+      "type": "roundRect",
+      "x": 6.8615,
+      "y": 4.24,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "D1D9E6",
+      "adj": 0.12
+    },
+    {
+      "id": "proj2_lt",
+      "type": "roundRect",
+      "x": 6.7665,
+      "y": 4.145,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "FFFFFF",
+      "adj": 0.12
+    },
+    {
+      "id": "proj2",
+      "type": "roundRect",
+      "x": 6.8065,
+      "y": 4.18,
+      "w": 6.1465,
+      "h": 2.68,
+      "fill": "ECF0F3",
+      "adj": 0.12
+    },
+    {
+      "id": "proj2_h",
+      "type": "text",
+      "x": 7.1865,
+      "y": 4.3999999999999995,
+      "w": 5.3865,
+      "h": 0.38,
+      "text": "Project Name",
+      "font": {
+        "name": "Calibri Light",
+        "size": 24,
+        "color": "A8B6C3",
+        "align": "right",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "proj2_b",
+      "type": "text",
+      "x": 7.1865,
+      "y": 4.8,
+      "w": 5.3865,
+      "h": 0.5,
+      "text": "Add Some Brief Text to Explain the\nTopic This is Just a Demo",
+      "font": {
+        "name": "Calibri",
+        "size": 12,
+        "color": "B4BCC6",
+        "align": "right",
+        "anchor": "top",
+        "line_spacing": 1.08
+      }
+    },
+    {
+      "id": "proj2_seg0",
+      "type": "roundRect",
+      "x": 7.3565,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_seg1",
+      "type": "roundRect",
+      "x": 8.2076,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_seg2",
+      "type": "roundRect",
+      "x": 9.0587,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "DDE2E8",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_seg3",
+      "type": "roundRect",
+      "x": 9.9097,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_seg4",
+      "type": "roundRect",
+      "x": 10.7608,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_seg5",
+      "type": "roundRect",
+      "x": 11.6119,
+      "y": 5.66,
+      "w": 0.7911,
+      "h": 0.16,
+      "fill": "A8B4C2",
+      "adj": 0.5
+    },
+    {
+      "id": "proj2_mark",
+      "type": "triangle",
+      "x": 10.2153,
+      "y": 5.92,
+      "w": 0.2,
+      "h": 0.16,
+      "fill": "A8B4C2"
+    },
+    {
+      "id": "proj2_v",
+      "type": "text",
+      "x": 9.7653,
+      "y": 6.0600000000000005,
+      "w": 1.08,
+      "h": 0.28,
+      "text": "72525",
+      "font": {
+        "name": "Calibri",
+        "size": 13,
+        "color": "A8B6C3",
+        "align": "center",
+        "anchor": "middle"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "steps": [
+        {
+          "target": "title",
+          "effect": "fade",
+          "dur": 500,
+          "start": "on_click"
+        },
+        {
+          "target": "subtitle",
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "sales1_dk",
+            "sales1_lt",
+            "sales1",
+            "sales1_h",
+            "sales1_b",
+            "sales1_trk",
+            "sales1_knob_r",
+            "sales1_knob"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "donut1_dk",
+            "donut1_lt",
+            "donut1",
+            "ring1",
+            "ring1_mid",
+            "ring1_hole"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "sales2_dk",
+            "sales2_lt",
+            "sales2",
+            "sales2_h",
+            "sales2_b",
+            "sales2_trk",
+            "sales2_knob_r",
+            "sales2_knob"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "donut2_dk",
+            "donut2_lt",
+            "donut2",
+            "ring2",
+            "ring2_mid",
+            "ring2_hole"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "proj1_dk",
+            "proj1_lt",
+            "proj1",
+            "proj1_seg0",
+            "proj1_seg1",
+            "proj1_seg2",
+            "proj1_seg3",
+            "proj1_seg4",
+            "proj1_seg5",
+            "proj1_h",
+            "proj1_b",
+            "proj1_mark",
+            "proj1_v"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "proj2_dk",
+            "proj2_lt",
+            "proj2",
+            "proj2_seg0",
+            "proj2_seg1",
+            "proj2_seg2",
+            "proj2_seg3",
+            "proj2_seg4",
+            "proj2_seg5",
+            "proj2_h",
+            "proj2_b",
+            "proj2_mark",
+            "proj2_v"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 50,
+          "start": "after_previous"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""DrawingML slide-timing builder.
+"""DrawingML slide-timing and transition builder.
 
 python-pptx has no animation API, so entrance and emphasis effects are emitted
 as raw <p:timing> trees. Effects are defined by their behaviour nodes (which is
 what actually plays); the preset id only controls the label PowerPoint shows in
 the Animation Pane.
+
+Morph is a slide transition, not a timing effect. `add_transition(..., "morph")`
+writes Office AlternateContent (`p159:morph` with a fade fallback).
 """
 
 from __future__ import annotations
@@ -13,6 +16,9 @@ from lxml import etree
 
 PML = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
 DML = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
+MC_NS = "http://schemas.openxmlformats.org/markup-compatibility/2006"
+P159_NS = "http://schemas.microsoft.com/office/powerpoint/2015/09/main"
+MC = f"{{{MC_NS}}}"
 
 
 class Ids:
@@ -167,6 +173,10 @@ PRESETS = {
     "wipe_right": (22, "entr", 2),
     "split": (16, "entr", 26),
     "grow_turn": (31, "entr", 0),
+    "peek_in_left": (12, "entr", 8),
+    "peek_in_right": (12, "entr", 2),
+    "peek_in_top": (12, "entr", 1),
+    "peek_in_bottom": (12, "entr", 4),
     "grow_shrink": (6, "emph", 0),
     "spin": (8, "emph", 0),
     "pulse_color": (2, "emph", 0),
@@ -175,6 +185,7 @@ PRESETS = {
 
 FLOAT_OFFSET = 0.08
 FLY_OFFSET = 0.55
+PEEK_OFFSET = 0.18
 
 
 def entrance_behaviors(ids: Ids, spid, effect: str, dur: int) -> list:
@@ -201,13 +212,22 @@ def entrance_behaviors(ids: Ids, spid, effect: str, dur: int) -> list:
             "bottom": (0.0, FLY_OFFSET),
         }[side]
         bits.append(_motion(ids, spid, dur, dx, dy))
+    elif effect.startswith("peek_in_"):
+        side = effect.rsplit("_", 1)[1]
+        dx, dy = {
+            "left": (-PEEK_OFFSET, 0.0),
+            "right": (PEEK_OFFSET, 0.0),
+            "top": (0.0, -PEEK_OFFSET),
+            "bottom": (0.0, PEEK_OFFSET),
+        }[side]
+        bits.append(_motion(ids, spid, dur, dx, dy))
     elif effect.startswith("wipe_"):
         bits.append(_filter_effect(ids, spid, dur, f"wipe({effect.rsplit('_', 1)[1]})"))
     elif effect == "split":
         bits.append(_filter_effect(ids, spid, dur, "barn(inVertical)"))
     elif effect == "grow_turn":
         bits.extend(_scale_from_zero(ids, spid, dur))
-        bits.append(_rotate(ids, spid, dur, "0"))
+        bits.append(_rotate(ids, spid, dur, "5400000"))
         bits.append(_fade(ids, spid, dur))
     else:
         raise ValueError(f"Unknown entrance effect: {effect}")
@@ -467,14 +487,41 @@ def attach_timing(slide, groups: list) -> int:
 
 
 def add_transition(slide, kind: str = "fade", speed: str = "med") -> None:
-    """Slide transition. PowerPoint expects <p:transition> before <p:timing>."""
+    """Slide transition. PowerPoint expects it before <p:timing>.
+
+    Morph is not a <p:morph> child. Office writes markup-compatibility
+    AlternateContent: p159:morph for apps that understand it, fade otherwise.
+    Objects with the same shape name on consecutive slides are what Morph
+    interpolates; unmatched objects fade.
+    """
     element = slide._element
-    for stale in element.findall(f"{PML}transition"):
-        element.remove(stale)
-    transition = _e("transition", {"spd": speed})
-    transition.append(_e(kind))
+    for stale in list(element):
+        if stale.tag in (f"{PML}transition", f"{MC}AlternateContent"):
+            element.remove(stale)
+
+    kind = str(kind or "fade").lower()
+    speed = str(speed or ("slow" if kind == "morph" else "med"))
+    if kind == "morph":
+        node = _morph_transition(speed)
+    else:
+        node = _e("transition", {"spd": speed}, [_e(kind)])
+
     timings = element.findall(f"{PML}timing")
     if timings:
-        timings[0].addprevious(transition)
+        timings[0].addprevious(node)
     else:
-        element.append(transition)
+        element.append(node)
+
+
+def _morph_transition(speed: str) -> etree._Element:
+    ac = etree.Element(f"{MC}AlternateContent", nsmap={"mc": MC_NS})
+    choice = etree.SubElement(
+        ac, f"{MC}Choice", nsmap={"p159": P159_NS}
+    )
+    choice.set("Requires", "p159")
+    trans = etree.SubElement(choice, f"{PML}transition", {"spd": speed})
+    etree.SubElement(trans, f"{{{P159_NS}}}morph", {"option": "byObject"})
+    fallback = etree.SubElement(ac, f"{MC}Fallback")
+    fb = etree.SubElement(fallback, f"{PML}transition", {"spd": speed})
+    etree.SubElement(fb, f"{PML}fade")
+    return ac

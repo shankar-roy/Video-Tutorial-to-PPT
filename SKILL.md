@@ -74,7 +74,12 @@ cleanly when there are none.
 Design tutorials show the result in the first 15 seconds and again at the end.
 Find those frames first: they are worth more than the whole build sequence.
 The video thumbnail is often a clean, full-bleed render of the final slide, which
-makes it the single best reference:
+makes it the single best reference.
+
+If the filmstrip shows several nearly identical slides and the host is on the
+**Transitions** tab (Morph), this is a multi-slide Morph deck. The motion is
+not an Animation Pane entrance. Author `slides[]` with the same shape `name`s
+on shared chrome (year tabs, arrows) and set `"transition": "morph"`.
 
 ```bash
 curl -s -o work/target.jpg "https://i.ytimg.com/vi/<video-id>/maxresdefault.jpg"
@@ -102,6 +107,7 @@ Quality:
 
 - Reuse one palette and one type scale across the slide.
 - Give every animated shape an `id`.
+- For Morph, give shared chrome a stable `name` reused on every slide.
 - Group shapes that should move together with `targets`.
 - Prefer fonts that ship with Office so the deck travels.
 
@@ -125,6 +131,12 @@ Confirm the animations survived:
 
 ```bash
 unzip -p "<dest>.pptx" ppt/slides/slide1.xml | grep -c "<p:timing>"
+```
+
+For Morph decks, also check that the transition is real Morph markup, not `<p:morph>`:
+
+```bash
+unzip -p "<dest>.pptx" ppt/slides/slide2.xml | grep -o 'p159:morph[^/]*'
 ```
 
 ---
@@ -165,12 +177,14 @@ Quality:
 
 `examples/infographic-plan-cards.design.json` is a full worked design-track slide.
 `examples/solar-system.design.json` is a second one.
+`examples/morph-timeline.design.json` is a multi-slide Morph deck.
 
 ## Report
 
 Give the `.pptx` path, the track you used, the slide count, and the animation
-step count. Tell the user to open it in PowerPoint and run the slideshow, since
-neither the PNG preview nor Cursor's file preview plays animations.
+step count (Morph decks often have few or no Animation Pane steps; say that).
+Tell the user to open it in PowerPoint and run the slideshow, since neither the
+PNG preview nor Cursor's file preview plays Morph or entrance animations.
 
 ## Do not
 

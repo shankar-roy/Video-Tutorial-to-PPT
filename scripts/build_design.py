@@ -69,23 +69,35 @@ def sub(parent, tag: str):
     return etree.SubElement(parent, qn(tag))
 
 
+def add_shadow(effects, spec) -> None:
+    inner = str(spec.get("type", "outer")).lower() == "inner"
+    shadow = sub(effects, "a:innerShdw" if inner else "a:outerShdw")
+    shadow.set("blurRad", str(Pt(spec.get("blur", 12)).emu))
+    shadow.set("dist", str(Pt(spec.get("dist", 4)).emu))
+    shadow.set("dir", str(spec.get("dir", 5400000)))
+    if not inner:
+        shadow.set("rotWithShape", "0")
+    color = sub(shadow, "a:srgbClr")
+    color.set("val", str(spec.get("color", "000000")).lstrip("#").upper())
+    alpha = sub(color, "a:alpha")
+    alpha.set("val", str(int(float(spec.get("alpha", 0.25)) * 100000)))
+
+
 def set_shadow(shape, spec) -> None:
-    """spec False/None removes the shadow; a dict configures an outer shadow."""
+    """False/None clears shadows; a dict or a list of dicts sets them.
+
+    a:effectLst holds at most one innerShdw and one outerShdw, in that order, so
+    a neumorphic pair of outer shadows has to come from two stacked shapes.
+    """
     spPr = shape._element.spPr
     for old in spPr.findall(qn("a:effectLst")):
         spPr.remove(old)
     effects = sub(spPr, "a:effectLst")
     if not spec:
         return
-    shadow = sub(effects, "a:outerShdw")
-    shadow.set("blurRad", str(Pt(spec.get("blur", 12)).emu))
-    shadow.set("dist", str(Pt(spec.get("dist", 4)).emu))
-    shadow.set("dir", str(spec.get("dir", 5400000)))
-    shadow.set("rotWithShape", "0")
-    color = sub(shadow, "a:srgbClr")
-    color.set("val", str(spec.get("color", "000000")).lstrip("#").upper())
-    alpha = sub(color, "a:alpha")
-    alpha.set("val", str(int(float(spec.get("alpha", 0.25)) * 100000)))
+    specs = spec if isinstance(spec, list) else [spec]
+    for one in sorted(specs, key=lambda s: str(s.get("type", "outer")).lower() != "inner"):
+        add_shadow(effects, one)
 
 
 def set_fill(shape, spec) -> None:
@@ -186,6 +198,14 @@ def add_freeform(slide, spec: dict):
     return builder.convert_to_shape()
 
 
+def _set_shape_name(shape, spec: dict) -> None:
+    """Morph pairs objects across slides by this name. Prefer an explicit
+    `name`; fall back to `id` so repeated year tabs stay matched."""
+    name = spec.get("name") or spec.get("id")
+    if name:
+        shape.name = str(name)
+
+
 def make_shape(slide, spec: dict, defaults: dict):
     kind = spec.get("type", "rect")
 
@@ -196,10 +216,12 @@ def make_shape(slide, spec: dict, defaults: dict):
             Inches(spec["x"]), Inches(spec["y"]), Inches(spec["w"]), Inches(spec["h"])
         )
     elif kind == "picture":
-        return slide.shapes.add_picture(
+        shape = slide.shapes.add_picture(
             spec["path"], Inches(spec["x"]), Inches(spec["y"]),
             Inches(spec["w"]), Inches(spec["h"]),
         )
+        _set_shape_name(shape, spec)
+        return shape
     else:
         if kind not in SHAPES:
             raise ValueError(f"Unknown shape type: {kind}")
@@ -207,6 +229,8 @@ def make_shape(slide, spec: dict, defaults: dict):
             SHAPES[kind], Inches(spec["x"]), Inches(spec["y"]),
             Inches(spec["w"]), Inches(spec["h"]),
         )
+
+    _set_shape_name(shape, spec)
 
     if kind != "text":
         set_fill(shape, spec.get("fill", "FFFFFF"))
@@ -317,10 +341,25 @@ def build_slide(prs, slide_spec: dict, defaults: dict) -> int:
 
     groups = [expand_targets(steps, ids) for steps in normalize_groups(slide_spec.get("animations"))]
     count = attach_timing(slide, groups)
-    transition = slide_spec.get("transition")
-    if transition:
-        add_transition(slide, transition)
+    kind, speed = _transition_args(slide_spec)
+    if kind:
+        add_transition(slide, kind, speed)
     return count
+
+
+def _transition_args(slide_spec: dict) -> tuple:
+    transition = slide_spec.get("transition")
+    speed = slide_spec.get("transition_speed")
+    if isinstance(transition, dict):
+        kind = transition.get("kind") or transition.get("type")
+        speed = transition.get("speed", speed)
+    else:
+        kind = transition
+    if not kind:
+        return None, None
+    if not speed:
+        speed = "slow" if str(kind).lower() == "morph" else "med"
+    return kind, speed
 
 
 def build(spec: dict, dest: Path) -> dict:
@@ -337,6 +376,7 @@ def build(spec: dict, dest: Path) -> dict:
             "animations": spec.get("animations"),
             "bg": canvas.get("bg"),
             "transition": spec.get("transition"),
+            "transition_speed": spec.get("transition_speed"),
         }]
 
     total = 0

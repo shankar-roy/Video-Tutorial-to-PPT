@@ -14,7 +14,8 @@ hex strings without `#`.
 | `defaults` | object | no | Font defaults merged into every text block: `name`, `size`, `color`. |
 | `shapes` | array | yes* | Single-slide shorthand. |
 | `animations` | array | no | Single-slide shorthand. |
-| `transition` | string | no | `fade`, `push`, `wipe`, `split`, `cut`, `morph`. |
+| `transition` | string / object | no | `fade`, `push`, `wipe`, `split`, `cut`, `morph`. Object form: `{"kind":"morph","speed":"slow"}`. Morph is a **slide transition**, not an Animation Pane effect. |
+| `transition_speed` | string | no | `slow`, `med`, `fast`. Morph defaults to `slow`. |
 | `slides` | array | yes* | Multi-slide form; each item takes `shapes`, `animations`, `bg`, `transition`. |
 | `title`, `source_url`, `note` | string | no | Metadata, ignored by the renderer. |
 
@@ -26,7 +27,8 @@ Shapes render in array order, so later entries sit on top.
 
 | Field | Type | Notes |
 | --- | --- | --- |
-| `id` | string | Required to animate the shape. |
+| `id` | string | Required to animate the shape. Also used as the PowerPoint shape name if `name` is omitted. |
+| `name` | string | PowerPoint shape name. Morph pairs objects on consecutive slides by this string, so year tabs and other shared chrome must reuse the same `name` on every slide. |
 | `type` | string | See the type list below. |
 | `x`, `y`, `w`, `h` | number | Inches from the top-left of the slide. |
 | `fill` | string / object / null | Hex, `{"type":"gradient","stops":[["FFF",0],["CCC",100]],"angle":90}`, or `null` for no fill. |
@@ -101,6 +103,23 @@ Emphasis (these loop): `grow_shrink` (`scale`), `spin` (`clockwise`),
 
 Animations only play in PowerPoint. The PNG preview and the Cursor file preview
 both show the final resting state.
+
+## Morph timelines
+
+Morph is the Transitions-tab effect. The motion lives **between slides**: duplicate
+the chrome, keep shape `name`s identical, and change `x` / `y` / `w` / `h` / fill.
+PowerPoint interpolates the rest. Do not fake that motion with Fly In on one slide.
+
+A year-tab timeline is typically 6–7 slides (title plus one state per year). Each
+resting frame parks some years on the left stack and the rest on the right; Morph
+slides a year from one stack to the other. Center content can be unique per slide —
+unmatched names fade in and out.
+
+Office writes Morph as markup-compatibility AlternateContent (`p159:morph` with a
+fade fallback). `build_design.py` emits that when `transition` is `morph`. Older
+PowerPoint that does not understand Morph will fade instead.
+
+See [examples/morph-timeline.design.json](examples/morph-timeline.design.json).
 
 ## Example
 

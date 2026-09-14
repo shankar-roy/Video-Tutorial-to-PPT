@@ -1,0 +1,2626 @@
+{
+  "title": "Morph Timeline",
+  "source_url": "https://www.youtube.com/watch?v=m4UW98wP-y0",
+  "note": "Multi-slide Morph timeline. Year tabs share names across slides; center content is unique per year. Rebuilt from primitives \u2014 not extracted from the comparison template.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": "F0EEF1"
+  },
+  "defaults": {
+    "name": "Calibri",
+    "size": 14,
+    "color": "8A8F92"
+  },
+  "slides": [
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 0.56,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 1.12,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 1.68,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 2.24,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": -0.03,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 0.53,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 1.09,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 1.65,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "t_kicker",
+          "name": "t_kicker",
+          "type": "text",
+          "x": 3.6,
+          "y": 2.55,
+          "w": 6.1,
+          "h": 0.35,
+          "text": "MORPH TIMELINE",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "color": "55C7BF",
+            "align": "center",
+            "anchor": "middle",
+            "bold": true,
+            "spacing": 2
+          },
+          "wrap": true
+        },
+        {
+          "id": "t_title",
+          "name": "t_title",
+          "type": "text",
+          "x": 3.4,
+          "y": 2.95,
+          "w": 6.5,
+          "h": 0.7,
+          "text": "A year slides from stack to stack",
+          "font": {
+            "name": "Calibri",
+            "size": 26,
+            "color": "3A3F42",
+            "align": "center",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "t_sub",
+          "name": "t_sub",
+          "type": "text",
+          "x": 3.6,
+          "y": 3.75,
+          "w": 6.1,
+          "h": 0.7,
+          "text": "Advance the slideshow.\nEach click is a Morph transition.",
+          "font": {
+            "name": "Calibri",
+            "size": 16,
+            "color": "8A8F92",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 0.56,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 1.12,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 1.68,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 2.24,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": -0.03,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 0.53,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 1.09,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 1.65,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "pin_line",
+          "name": "pin_line",
+          "type": "line",
+          "x": 4.55,
+          "y": 4.28,
+          "w": 2.15,
+          "h": 0.03,
+          "fill": "C5C7C9"
+        },
+        {
+          "id": "pin_dot_l",
+          "name": "pin_dot_l",
+          "type": "oval",
+          "x": 4.48,
+          "y": 4.22,
+          "w": 0.15,
+          "h": 0.15,
+          "fill": "FF5869"
+        },
+        {
+          "id": "pin_dot_r",
+          "name": "pin_dot_r",
+          "type": "oval",
+          "x": 6.62,
+          "y": 4.22,
+          "w": 0.15,
+          "h": 0.15,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "pin_big",
+          "name": "pin_big",
+          "type": "oval",
+          "x": 4.05,
+          "y": 2.22,
+          "w": 1.28,
+          "h": 1.28,
+          "fill": "FF5869",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "pin_big_pt",
+          "name": "pin_big_pt",
+          "type": "triangle",
+          "x": 4.28,
+          "y": 3.18,
+          "w": 0.82,
+          "h": 0.72,
+          "fill": "FF5869",
+          "rotation": 180
+        },
+        {
+          "id": "pin_big_in",
+          "name": "pin_big_in",
+          "type": "oval",
+          "x": 4.28,
+          "y": 2.45,
+          "w": 0.82,
+          "h": 0.82,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "pin_bulb",
+          "name": "pin_bulb",
+          "type": "oval",
+          "x": 4.46,
+          "y": 2.63,
+          "w": 0.46,
+          "h": 0.46,
+          "fill": null,
+          "line": {
+            "color": "FF5869",
+            "width": 2.0
+          }
+        },
+        {
+          "id": "pin_small",
+          "name": "pin_small",
+          "type": "oval",
+          "x": 6.22,
+          "y": 2.58,
+          "w": 0.92,
+          "h": 0.92,
+          "fill": "55C7BF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "pin_small_pt",
+          "name": "pin_small_pt",
+          "type": "triangle",
+          "x": 6.38,
+          "y": 3.28,
+          "w": 0.6,
+          "h": 0.52,
+          "fill": "55C7BF",
+          "rotation": 180
+        },
+        {
+          "id": "pin_small_in",
+          "name": "pin_small_in",
+          "type": "oval",
+          "x": 6.38,
+          "y": 2.74,
+          "w": 0.6,
+          "h": 0.6,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "pin_bulb2",
+          "name": "pin_bulb2",
+          "type": "oval",
+          "x": 6.51,
+          "y": 2.87,
+          "w": 0.34,
+          "h": 0.34,
+          "fill": null,
+          "line": {
+            "color": "55C7BF",
+            "width": 1.75
+          }
+        },
+        {
+          "id": "pin_h",
+          "name": "pin_h",
+          "type": "text",
+          "x": 4.05,
+          "y": 4.58,
+          "w": 2.6,
+          "h": 0.32,
+          "text": "HEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 20,
+            "color": "FF5869",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "pin_p",
+          "name": "pin_p",
+          "type": "text",
+          "x": 4.05,
+          "y": 4.95,
+          "w": 2.5,
+          "h": 0.55,
+          "text": "You can add some\nbrief text here",
+          "font": {
+            "name": "Calibri",
+            "size": 12,
+            "color": "5F7173",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 0.56,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 1.12,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 1.68,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 11.693,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": -0.03,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 0.53,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 1.09,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 11.103,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "n_ring",
+          "name": "n_ring",
+          "type": "oval",
+          "x": 3.55,
+          "y": 2.85,
+          "w": 1.35,
+          "h": 1.35,
+          "fill": null,
+          "line": {
+            "color": "C5C7C9",
+            "width": 2.25
+          }
+        },
+        {
+          "id": "n_core",
+          "name": "n_core",
+          "type": "oval",
+          "x": 3.92,
+          "y": 3.22,
+          "w": 0.6,
+          "h": 0.6,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "n_core_in",
+          "name": "n_core_in",
+          "type": "oval",
+          "x": 4.07,
+          "y": 3.37,
+          "w": 0.3,
+          "h": 0.3,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "n_h_line",
+          "name": "n_h_line",
+          "type": "line",
+          "x": 4.9,
+          "y": 3.5,
+          "w": 1.55,
+          "h": 0.03,
+          "fill": "C5C7C9"
+        },
+        {
+          "id": "n_v_line",
+          "name": "n_v_line",
+          "type": "line",
+          "x": 4.2,
+          "y": 4.15,
+          "w": 0.03,
+          "h": 0.85,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "n_dot_d",
+          "name": "n_dot_d",
+          "type": "oval",
+          "x": 4.12,
+          "y": 4.95,
+          "w": 0.18,
+          "h": 0.18,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "n_ring2",
+          "name": "n_ring2",
+          "type": "oval",
+          "x": 6.35,
+          "y": 3.05,
+          "w": 0.95,
+          "h": 0.95,
+          "fill": null,
+          "line": {
+            "color": "C5C7C9",
+            "width": 2.0
+          }
+        },
+        {
+          "id": "n_core2",
+          "name": "n_core2",
+          "type": "oval",
+          "x": 6.58,
+          "y": 3.28,
+          "w": 0.48,
+          "h": 0.48,
+          "fill": "FFC535"
+        },
+        {
+          "id": "n_up",
+          "name": "n_up",
+          "type": "line",
+          "x": 6.8,
+          "y": 2.15,
+          "w": 0.03,
+          "h": 0.95,
+          "fill": "FFC535"
+        },
+        {
+          "id": "n_dot_u",
+          "name": "n_dot_u",
+          "type": "oval",
+          "x": 6.72,
+          "y": 2.05,
+          "w": 0.18,
+          "h": 0.18,
+          "fill": "FFC535"
+        },
+        {
+          "id": "n_h1",
+          "name": "n_h1",
+          "type": "text",
+          "x": 3.55,
+          "y": 2.35,
+          "w": 2.2,
+          "h": 0.32,
+          "text": "HEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 22,
+            "color": "55C7BF",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "n_h2",
+          "name": "n_h2",
+          "type": "text",
+          "x": 5.55,
+          "y": 4.15,
+          "w": 2.2,
+          "h": 0.32,
+          "text": "HEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 20,
+            "color": "E8C04A",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "n_p1",
+          "name": "n_p1",
+          "type": "text",
+          "x": 3.55,
+          "y": 5.25,
+          "w": 2.6,
+          "h": 0.7,
+          "text": "You need to add\nyour own bullet points",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "5F7173",
+            "align": "left",
+            "anchor": "top",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "n_rule",
+          "name": "n_rule",
+          "type": "line",
+          "x": 3.55,
+          "y": 5.95,
+          "w": 1.7,
+          "h": 0.025,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "n_p2",
+          "name": "n_p2",
+          "type": "text",
+          "x": 5.4,
+          "y": 1.55,
+          "w": 3.2,
+          "h": 0.55,
+          "text": "You need to add\nyour own bullet points",
+          "font": {
+            "name": "Calibri",
+            "size": 12,
+            "color": "B0B3B6",
+            "align": "center",
+            "anchor": "top"
+          },
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 0.56,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 1.12,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 11.133,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 11.693,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": -0.03,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 0.53,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 10.543,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 11.103,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "i1_ring",
+          "name": "i1_ring",
+          "type": "oval",
+          "x": 3.15,
+          "y": 3.28,
+          "w": 1.32,
+          "h": 1.32,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "i1_fill",
+          "name": "i1_fill",
+          "type": "oval",
+          "x": 3.28,
+          "y": 3.41,
+          "w": 1.06,
+          "h": 1.06,
+          "fill": "FFC535"
+        },
+        {
+          "id": "i1_fist",
+          "name": "i1_fist",
+          "type": "roundRect",
+          "x": 3.48,
+          "y": 3.88,
+          "w": 0.48,
+          "h": 0.36,
+          "fill": "FFFFFF",
+          "adj": 0.32
+        },
+        {
+          "id": "i1_thumb",
+          "name": "i1_thumb",
+          "type": "roundRect",
+          "x": 3.78,
+          "y": 3.55,
+          "w": 0.26,
+          "h": 0.5,
+          "fill": "FFFFFF",
+          "adj": 0.48
+        },
+        {
+          "id": "i1_lead_v",
+          "name": "i1_lead_v",
+          "type": "line",
+          "x": 3.78,
+          "y": 4.6,
+          "w": 0.03,
+          "h": 0.48,
+          "fill": "FFC535"
+        },
+        {
+          "id": "i1_lead_h",
+          "name": "i1_lead_h",
+          "type": "line",
+          "x": 3.15,
+          "y": 5.05,
+          "w": 0.66,
+          "h": 0.03,
+          "fill": "FFC535"
+        },
+        {
+          "id": "i1_h",
+          "name": "i1_h",
+          "type": "text",
+          "x": 2.15,
+          "y": 4.88,
+          "w": 1.15,
+          "h": 0.55,
+          "text": "01\nHEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "FFC535",
+            "align": "left",
+            "anchor": "bottom",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "i1_p",
+          "name": "i1_p",
+          "type": "text",
+          "x": 2.15,
+          "y": 5.45,
+          "w": 1.35,
+          "h": 0.55,
+          "text": "Add some brief\ntext to explain",
+          "font": {
+            "name": "Calibri",
+            "size": 11,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        },
+        {
+          "id": "i2_ring",
+          "name": "i2_ring",
+          "type": "oval",
+          "x": 4.58,
+          "y": 1.95,
+          "w": 1.92,
+          "h": 1.92,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "i2_fill",
+          "name": "i2_fill",
+          "type": "oval",
+          "x": 4.75,
+          "y": 2.12,
+          "w": 1.58,
+          "h": 1.58,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "i2_page",
+          "name": "i2_page",
+          "type": "roundRect",
+          "x": 5.15,
+          "y": 2.42,
+          "w": 0.8,
+          "h": 0.95,
+          "fill": "FFFFFF",
+          "adj": 0.1
+        },
+        {
+          "id": "i2_fold",
+          "name": "i2_fold",
+          "type": "rightTriangle",
+          "x": 5.63,
+          "y": 2.42,
+          "w": 0.32,
+          "h": 0.28,
+          "fill": "B6E8E2"
+        },
+        {
+          "id": "i2_l1",
+          "name": "i2_l1",
+          "type": "line",
+          "x": 5.28,
+          "y": 2.88,
+          "w": 0.4,
+          "h": 0.03,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "i2_l2",
+          "name": "i2_l2",
+          "type": "line",
+          "x": 5.28,
+          "y": 3.06,
+          "w": 0.4,
+          "h": 0.03,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "i2_l3",
+          "name": "i2_l3",
+          "type": "line",
+          "x": 5.28,
+          "y": 3.24,
+          "w": 0.26,
+          "h": 0.03,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "i2_lead",
+          "name": "i2_lead",
+          "type": "line",
+          "x": 4.05,
+          "y": 2.22,
+          "w": 0.7,
+          "h": 0.03,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "i2_h",
+          "name": "i2_h",
+          "type": "text",
+          "x": 2.85,
+          "y": 1.72,
+          "w": 1.25,
+          "h": 0.5,
+          "text": "02\nHEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "55C7BF",
+            "align": "left",
+            "anchor": "bottom",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "i2_p",
+          "name": "i2_p",
+          "type": "text",
+          "x": 2.85,
+          "y": 2.24,
+          "w": 1.35,
+          "h": 0.5,
+          "text": "Add some brief\ntext to explain",
+          "font": {
+            "name": "Calibri",
+            "size": 11,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        },
+        {
+          "id": "i3_ring",
+          "name": "i3_ring",
+          "type": "oval",
+          "x": 6.58,
+          "y": 3.15,
+          "w": 1.02,
+          "h": 1.02,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "i3_fill",
+          "name": "i3_fill",
+          "type": "oval",
+          "x": 6.69,
+          "y": 3.26,
+          "w": 0.8,
+          "h": 0.8,
+          "fill": "5F7173"
+        },
+        {
+          "id": "i3_d1",
+          "name": "i3_d1",
+          "type": "oval",
+          "x": 6.84,
+          "y": 3.34,
+          "w": 0.5,
+          "h": 0.18,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "i3_d2",
+          "name": "i3_d2",
+          "type": "oval",
+          "x": 6.84,
+          "y": 3.5,
+          "w": 0.5,
+          "h": 0.18,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "i3_d3",
+          "name": "i3_d3",
+          "type": "oval",
+          "x": 6.84,
+          "y": 3.66,
+          "w": 0.5,
+          "h": 0.18,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "i3_lead_v",
+          "name": "i3_lead_v",
+          "type": "line",
+          "x": 7.08,
+          "y": 2.48,
+          "w": 0.03,
+          "h": 0.7,
+          "fill": "5F7173"
+        },
+        {
+          "id": "i3_lead_h",
+          "name": "i3_lead_h",
+          "type": "line",
+          "x": 7.08,
+          "y": 2.48,
+          "w": 0.58,
+          "h": 0.03,
+          "fill": "5F7173"
+        },
+        {
+          "id": "i3_h",
+          "name": "i3_h",
+          "type": "text",
+          "x": 7.72,
+          "y": 2.08,
+          "w": 1.45,
+          "h": 0.5,
+          "text": "03\nHEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "5F7173",
+            "align": "left",
+            "anchor": "bottom",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "i3_p",
+          "name": "i3_p",
+          "type": "text",
+          "x": 7.72,
+          "y": 2.6,
+          "w": 1.45,
+          "h": 0.5,
+          "text": "Add some brief\ntext to explain",
+          "font": {
+            "name": "Calibri",
+            "size": 11,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        },
+        {
+          "id": "i4_ring",
+          "name": "i4_ring",
+          "type": "oval",
+          "x": 7.58,
+          "y": 3.48,
+          "w": 1.38,
+          "h": 1.38,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "i4_fill",
+          "name": "i4_fill",
+          "type": "oval",
+          "x": 7.73,
+          "y": 3.63,
+          "w": 1.08,
+          "h": 1.08,
+          "fill": "FF5869"
+        },
+        {
+          "id": "i4_bell",
+          "name": "i4_bell",
+          "type": "oval",
+          "x": 7.92,
+          "y": 3.88,
+          "w": 0.42,
+          "h": 0.42,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "i4_cone",
+          "name": "i4_cone",
+          "type": "rightTriangle",
+          "x": 8.18,
+          "y": 3.82,
+          "w": 0.55,
+          "h": 0.55,
+          "fill": "FFFFFF"
+        },
+        {
+          "id": "i4_handle",
+          "name": "i4_handle",
+          "type": "roundRect",
+          "x": 8.05,
+          "y": 4.28,
+          "w": 0.14,
+          "h": 0.22,
+          "fill": "FFFFFF",
+          "adj": 0.4
+        },
+        {
+          "id": "i4_lead_v",
+          "name": "i4_lead_v",
+          "type": "line",
+          "x": 8.95,
+          "y": 4.62,
+          "w": 0.03,
+          "h": 0.28,
+          "fill": "FF5869"
+        },
+        {
+          "id": "i4_lead_h",
+          "name": "i4_lead_h",
+          "type": "line",
+          "x": 8.95,
+          "y": 4.9,
+          "w": 0.85,
+          "h": 0.03,
+          "fill": "FF5869"
+        },
+        {
+          "id": "i4_h",
+          "name": "i4_h",
+          "type": "text",
+          "x": 9.2,
+          "y": 4.68,
+          "w": 1.45,
+          "h": 0.5,
+          "text": "04\nHEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "FF5869",
+            "align": "left",
+            "anchor": "bottom",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "i4_p",
+          "name": "i4_p",
+          "type": "text",
+          "x": 9.2,
+          "y": 5.2,
+          "w": 1.45,
+          "h": 0.5,
+          "text": "Add some brief\ntext to explain",
+          "font": {
+            "name": "Calibri",
+            "size": 11,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 0.56,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 10.573,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 11.133,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 11.693,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": -0.03,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 9.983,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 10.543,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 11.103,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "s_line",
+          "name": "s_line",
+          "type": "line",
+          "x": 3.55,
+          "y": 3.55,
+          "w": 1.85,
+          "h": 0.04,
+          "fill": "C5C7C9",
+          "rotation": -28
+        },
+        {
+          "id": "s1_ring",
+          "name": "s1_ring",
+          "type": "oval",
+          "x": 3.15,
+          "y": 3.55,
+          "w": 1.15,
+          "h": 1.15,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "s1_fill",
+          "name": "s1_fill",
+          "type": "oval",
+          "x": 3.28,
+          "y": 3.68,
+          "w": 0.9,
+          "h": 0.9,
+          "fill": "FF5869"
+        },
+        {
+          "id": "s1_n",
+          "name": "s1_n",
+          "type": "text",
+          "x": 3.28,
+          "y": 3.68,
+          "w": 0.9,
+          "h": 0.9,
+          "text": "1",
+          "font": {
+            "name": "Calibri",
+            "size": 28,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "s2_ring",
+          "name": "s2_ring",
+          "type": "oval",
+          "x": 4.85,
+          "y": 2.35,
+          "w": 1.05,
+          "h": 1.05,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "s2_fill",
+          "name": "s2_fill",
+          "type": "oval",
+          "x": 4.97,
+          "y": 2.47,
+          "w": 0.82,
+          "h": 0.82,
+          "fill": "55C7BF"
+        },
+        {
+          "id": "s2_n",
+          "name": "s2_n",
+          "type": "text",
+          "x": 4.97,
+          "y": 2.47,
+          "w": 0.82,
+          "h": 0.82,
+          "text": "2",
+          "font": {
+            "name": "Calibri",
+            "size": 24,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "s1_h",
+          "name": "s1_h",
+          "type": "text",
+          "x": 3.15,
+          "y": 4.85,
+          "w": 1.8,
+          "h": 0.32,
+          "text": "HEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 18,
+            "color": "FF5869",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "s1_p",
+          "name": "s1_p",
+          "type": "text",
+          "x": 3.15,
+          "y": 5.22,
+          "w": 1.9,
+          "h": 0.7,
+          "text": "Write some brief\nhere about the\nheading",
+          "font": {
+            "name": "Calibri",
+            "size": 12,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        },
+        {
+          "id": "s2_h",
+          "name": "s2_h",
+          "type": "text",
+          "x": 4.85,
+          "y": 1.55,
+          "w": 1.8,
+          "h": 0.32,
+          "text": "HEADING",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "color": "55C7BF",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "s2_p",
+          "name": "s2_p",
+          "type": "text",
+          "x": 4.85,
+          "y": 1.9,
+          "w": 1.8,
+          "h": 0.45,
+          "text": "Write some brief\nhere about the heading",
+          "font": {
+            "name": "Calibri",
+            "size": 11,
+            "color": "8A8F92",
+            "align": "left",
+            "anchor": "top"
+          },
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "bg": "F0EEF1",
+      "transition": {
+        "kind": "morph",
+        "speed": "slow"
+      },
+      "shapes": [
+        {
+          "id": "YearPage 2017",
+          "name": "YearPage 2017",
+          "type": "rect",
+          "x": 0.0,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 0
+          }
+        },
+        {
+          "id": "YearPage 2016",
+          "name": "YearPage 2016",
+          "type": "rect",
+          "x": 10.013,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2015",
+          "name": "YearPage 2015",
+          "type": "rect",
+          "x": 10.573,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2014",
+          "name": "YearPage 2014",
+          "type": "rect",
+          "x": 11.133,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearPage 2013",
+          "name": "YearPage 2013",
+          "type": "rect",
+          "x": 11.693,
+          "y": 0,
+          "w": 0.64,
+          "h": 7.5,
+          "fill": "F7F6F8",
+          "shadow": {
+            "blur": 14,
+            "dist": 5,
+            "alpha": 0.18,
+            "color": "000000",
+            "dir": 10800000
+          }
+        },
+        {
+          "id": "YearBar 2017",
+          "name": "YearBar 2017",
+          "type": "rect",
+          "x": -0.59,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "00A0A5",
+          "rotation": 270,
+          "text": "2017",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2016",
+          "name": "YearBar 2016",
+          "type": "rect",
+          "x": 9.423,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "90D151",
+          "rotation": 270,
+          "text": "2016",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2015",
+          "name": "YearBar 2015",
+          "type": "rect",
+          "x": 9.983,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "5F7173",
+          "rotation": 270,
+          "text": "2015",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2014",
+          "name": "YearBar 2014",
+          "type": "rect",
+          "x": 10.543,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "FFC535",
+          "rotation": 270,
+          "text": "2014",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2013",
+          "name": "YearBar 2013",
+          "type": "rect",
+          "x": 11.103,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "fill": "55C7BF",
+          "rotation": 270,
+          "text": "2013",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "YearBar 2012",
+          "name": "YearBar 2012",
+          "type": "arrowRight",
+          "x": 12.253,
+          "y": 2.575,
+          "w": 1.08,
+          "h": 2.35,
+          "fill": "FF5869",
+          "adj": 0.38
+        },
+        {
+          "id": "YearLabel 2012",
+          "name": "YearLabel 2012",
+          "type": "text",
+          "x": 11.823,
+          "y": 3.53,
+          "w": 1.62,
+          "h": 0.44,
+          "rotation": 270,
+          "text": "2012",
+          "font": {
+            "name": "Calibri",
+            "size": 14,
+            "bold": true,
+            "color": "FFFFFF",
+            "align": "center",
+            "anchor": "middle"
+          },
+          "wrap": false
+        },
+        {
+          "id": "h_lead",
+          "name": "h_lead",
+          "type": "line",
+          "x": 4.55,
+          "y": 2.85,
+          "w": 1.55,
+          "h": 0.04,
+          "fill": "FF5869",
+          "rotation": -22
+        },
+        {
+          "id": "h_ring2",
+          "name": "h_ring2",
+          "type": "oval",
+          "x": 3.18,
+          "y": 2.98,
+          "w": 1.72,
+          "h": 1.72,
+          "fill": null,
+          "line": {
+            "color": "FF5869",
+            "width": 1.75
+          }
+        },
+        {
+          "id": "h_ring",
+          "name": "h_ring",
+          "type": "oval",
+          "x": 3.3,
+          "y": 3.1,
+          "w": 1.48,
+          "h": 1.48,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "h_l",
+          "name": "h_l",
+          "type": "oval",
+          "x": 3.48,
+          "y": 3.42,
+          "w": 0.52,
+          "h": 0.52,
+          "fill": "FF5869"
+        },
+        {
+          "id": "h_r",
+          "name": "h_r",
+          "type": "oval",
+          "x": 3.88,
+          "y": 3.42,
+          "w": 0.52,
+          "h": 0.52,
+          "fill": "FF5869"
+        },
+        {
+          "id": "h_tip",
+          "name": "h_tip",
+          "type": "triangle",
+          "x": 3.52,
+          "y": 3.68,
+          "w": 0.82,
+          "h": 0.55,
+          "fill": "FF5869",
+          "rotation": 180
+        },
+        {
+          "id": "h_stem",
+          "name": "h_stem",
+          "type": "line",
+          "x": 3.98,
+          "y": 4.55,
+          "w": 0.03,
+          "h": 0.42,
+          "fill": "FF5869"
+        },
+        {
+          "id": "h_dot",
+          "name": "h_dot",
+          "type": "oval",
+          "x": 3.92,
+          "y": 4.92,
+          "w": 0.14,
+          "h": 0.14,
+          "fill": "FF5869"
+        },
+        {
+          "id": "h_year",
+          "name": "h_year",
+          "type": "text",
+          "x": 3.4,
+          "y": 2.58,
+          "w": 1.3,
+          "h": 0.32,
+          "text": "2010",
+          "font": {
+            "name": "Calibri",
+            "size": 18,
+            "color": "FF5869",
+            "align": "left",
+            "anchor": "middle",
+            "bold": true
+          },
+          "wrap": true
+        },
+        {
+          "id": "h_p",
+          "name": "h_p",
+          "type": "text",
+          "x": 3.2,
+          "y": 5.2,
+          "w": 2.0,
+          "h": 0.85,
+          "text": "This is just a demo\ntext so consider\nreplacing it",
+          "font": {
+            "name": "Calibri",
+            "size": 13,
+            "color": "3A3F42",
+            "align": "center",
+            "anchor": "top"
+          },
+          "wrap": true
+        },
+        {
+          "id": "g_ring",
+          "name": "g_ring",
+          "type": "oval",
+          "x": 5.58,
+          "y": 2.02,
+          "w": 1.32,
+          "h": 1.32,
+          "fill": "FFFFFF",
+          "shadow": {
+            "blur": 16,
+            "dist": 4,
+            "alpha": 0.16,
+            "color": "000000",
+            "dir": 5400000
+          }
+        },
+        {
+          "id": "g_fill",
+          "name": "g_fill",
+          "type": "oval",
+          "x": 5.8,
+          "y": 2.24,
+          "w": 0.88,
+          "h": 0.88,
+          "fill": "5F7173"
+        },
+        {
+          "id": "g_arc",
+          "name": "g_arc",
+          "type": "arc",
+          "x": 5.48,
+          "y": 1.92,
+          "w": 1.52,
+          "h": 1.52,
+          "fill": null,
+          "line": {
+            "color": "5F7173",
+            "width": 1.75
+          }
+        }
+      ]
+    }
+  ]
+}

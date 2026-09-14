@@ -1,0 +1,1715 @@
+{
+  "title": "Solar System Infographic",
+  "note": "Regression fixture: the generic renderer reproducing build_solar_system.py.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": {
+      "type": "radial",
+      "center": [
+        50,
+        50
+      ],
+      "stops": [
+        [
+          "2A3F8A",
+          0
+        ],
+        [
+          "1A2268",
+          40
+        ],
+        [
+          "0A071C",
+          100
+        ]
+      ]
+    }
+  },
+  "defaults": {
+    "name": "Arial Narrow",
+    "size": 10,
+    "color": "F4F6FB"
+  },
+  "shapes": [
+    {
+      "id": "orbit1",
+      "type": "oval",
+      "x": 5.3915,
+      "y": 2.475,
+      "w": 2.55,
+      "h": 2.55,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit2",
+      "type": "oval",
+      "x": 4.8915,
+      "y": 1.975,
+      "w": 3.55,
+      "h": 3.55,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit3",
+      "type": "oval",
+      "x": 4.3165,
+      "y": 1.4,
+      "w": 4.7,
+      "h": 4.7,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit4",
+      "type": "oval",
+      "x": 3.7165,
+      "y": 0.8,
+      "w": 5.9,
+      "h": 5.9,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit5",
+      "type": "oval",
+      "x": 3.0915,
+      "y": 0.175,
+      "w": 7.15,
+      "h": 7.15,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit6",
+      "type": "oval",
+      "x": 2.4415,
+      "y": -0.475,
+      "w": 8.45,
+      "h": 8.45,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit7",
+      "type": "oval",
+      "x": 1.7665,
+      "y": -1.15,
+      "w": 9.8,
+      "h": 9.8,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit8",
+      "type": "oval",
+      "x": 1.0665,
+      "y": -1.85,
+      "w": 11.2,
+      "h": 11.2,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit9",
+      "type": "oval",
+      "x": 0.3165,
+      "y": -2.6,
+      "w": 12.7,
+      "h": 12.7,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "orbit10",
+      "type": "oval",
+      "x": -0.4335,
+      "y": -3.35,
+      "w": 14.2,
+      "h": 14.2,
+      "fill": null,
+      "line": {
+        "color": "7B8AB8",
+        "width": 1.25,
+        "dash": "sysDot"
+      }
+    },
+    {
+      "id": "sun1",
+      "type": "oval",
+      "x": 5.4365,
+      "y": 2.52,
+      "w": 2.46,
+      "h": 2.46,
+      "fill": "3D2810"
+    },
+    {
+      "id": "sun2",
+      "type": "oval",
+      "x": 5.5265,
+      "y": 2.61,
+      "w": 2.28,
+      "h": 2.28,
+      "fill": "5A3A18"
+    },
+    {
+      "id": "sun3",
+      "type": "oval",
+      "x": 5.6765,
+      "y": 2.76,
+      "w": 1.98,
+      "h": 1.98,
+      "fill": "E09020"
+    },
+    {
+      "id": "sun4",
+      "type": "oval",
+      "x": 5.8565,
+      "y": 2.94,
+      "w": 1.62,
+      "h": 1.62,
+      "fill": "FFC400"
+    },
+    {
+      "id": "star1",
+      "type": "star4",
+      "x": 1.55,
+      "y": 1.85,
+      "w": 0.1,
+      "h": 0.1,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star2",
+      "type": "star4",
+      "x": 2.85,
+      "y": 0.55,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star3",
+      "type": "star4",
+      "x": 3.55,
+      "y": 2.55,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star4",
+      "type": "star4",
+      "x": 4.35,
+      "y": 0.95,
+      "w": 0.09,
+      "h": 0.09,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star5",
+      "type": "star4",
+      "x": 4.85,
+      "y": 4.55,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star6",
+      "type": "star4",
+      "x": 5.55,
+      "y": 2.15,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star7",
+      "type": "star4",
+      "x": 7.85,
+      "y": 0.65,
+      "w": 0.09,
+      "h": 0.09,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star8",
+      "type": "star4",
+      "x": 8.15,
+      "y": 5.45,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star9",
+      "type": "star4",
+      "x": 8.95,
+      "y": 4.15,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star10",
+      "type": "star4",
+      "x": 9.55,
+      "y": 6.55,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star11",
+      "type": "star4",
+      "x": 11.15,
+      "y": 2.05,
+      "w": 0.09,
+      "h": 0.09,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star12",
+      "type": "star4",
+      "x": 11.55,
+      "y": 4.85,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star13",
+      "type": "star4",
+      "x": 12.65,
+      "y": 1.65,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star14",
+      "type": "star4",
+      "x": 0.95,
+      "y": 5.15,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star15",
+      "type": "star4",
+      "x": 1.85,
+      "y": 6.65,
+      "w": 0.09,
+      "h": 0.09,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star16",
+      "type": "star4",
+      "x": 6.85,
+      "y": 6.85,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star17",
+      "type": "star4",
+      "x": 10.35,
+      "y": 0.45,
+      "w": 0.08,
+      "h": 0.08,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "star18",
+      "type": "star4",
+      "x": 3.15,
+      "y": 6.15,
+      "w": 0.07,
+      "h": 0.07,
+      "fill": "F4F7FF"
+    },
+    {
+      "id": "neptune_body",
+      "type": "oval",
+      "x": 0.22,
+      "y": 0.18,
+      "w": 0.82,
+      "h": 0.82,
+      "fill": "4A90D9"
+    },
+    {
+      "id": "neptune_shade",
+      "type": "pie",
+      "x": 0.22,
+      "y": 0.18,
+      "w": 0.82,
+      "h": 0.82,
+      "fill": "2E5F9E",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "neptune_label",
+      "type": "text",
+      "x": 1.18,
+      "y": 0.18,
+      "w": 3.35,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "left"
+      },
+      "runs": [
+        {
+          "text": "NEPTUNE",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "4AA4E8",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "THE ENIGMATIC BLUE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "PLANET WITH VERY COLD",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "TEMPERATURE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "saturn_body",
+      "type": "oval",
+      "x": 12.28,
+      "y": 0.28,
+      "w": 0.72,
+      "h": 0.72,
+      "fill": "C45BB0"
+    },
+    {
+      "id": "saturn_shade",
+      "type": "pie",
+      "x": 12.28,
+      "y": 0.28,
+      "w": 0.72,
+      "h": 0.72,
+      "fill": "8A3A88",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 40
+    },
+    {
+      "id": "saturn_label",
+      "type": "text",
+      "x": 8.55,
+      "y": 0.18,
+      "w": 3.55,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "right"
+      },
+      "runs": [
+        {
+          "text": "SATURN",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "C85BB8",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "GAS GIANT & SECOND LARGEST",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "PLANET AFTER JUPITER IN OUR",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "SOLAR SYSTEM",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "mercury_body",
+      "type": "oval",
+      "x": 6.22,
+      "y": 1.72,
+      "w": 0.58,
+      "h": 0.58,
+      "fill": "E0B070"
+    },
+    {
+      "id": "mercury_shade",
+      "type": "pie",
+      "x": 6.22,
+      "y": 1.72,
+      "w": 0.58,
+      "h": 0.58,
+      "fill": "C48A48",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 30
+    },
+    {
+      "id": "mercury_label",
+      "type": "text",
+      "x": 2.85,
+      "y": 1.35,
+      "w": 3.25,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "right"
+      },
+      "runs": [
+        {
+          "text": "MERCURY",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "E0A85C",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "CLOSEST PLANET TO THE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "SUN WITH HIGH TEMPERATURE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "& A VERY THIN ATMOSPHERE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "moon_body",
+      "type": "oval",
+      "x": 9.72,
+      "y": 2.22,
+      "w": 0.38,
+      "h": 0.38,
+      "fill": "D8DCE8"
+    },
+    {
+      "id": "moon_shade",
+      "type": "pie",
+      "x": 9.72,
+      "y": 2.22,
+      "w": 0.38,
+      "h": 0.38,
+      "fill": "9AA3B8",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "moon_label",
+      "type": "text",
+      "x": 6.95,
+      "y": 1.85,
+      "w": 2.6,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "right"
+      },
+      "runs": [
+        {
+          "text": "MOON",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "E8EEF8",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "RELATIVELY SMALL",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "& ONE FOURTH THE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "SIZE OF EARTH",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "earth_body",
+      "type": "oval",
+      "x": 10.05,
+      "y": 3.42,
+      "w": 0.68,
+      "h": 0.68,
+      "fill": "4DB8B0"
+    },
+    {
+      "id": "earth_shade",
+      "type": "pie",
+      "x": 10.05,
+      "y": 3.42,
+      "w": 0.68,
+      "h": 0.68,
+      "fill": "2E8A86",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "earth_label",
+      "type": "text",
+      "x": 10.88,
+      "y": 3.35,
+      "w": 2.35,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "left"
+      },
+      "runs": [
+        {
+          "text": "EARTH",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "4DC8C0",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "ONLY KNOWN PLANET TO",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "SUPPORT LIFE & ITS DIVERSE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "ECOSYSTEMS",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "mars_body",
+      "type": "oval",
+      "x": 2.18,
+      "y": 3.28,
+      "w": 0.58,
+      "h": 0.58,
+      "fill": "E07030"
+    },
+    {
+      "id": "mars_shade",
+      "type": "pie",
+      "x": 2.18,
+      "y": 3.28,
+      "w": 0.58,
+      "h": 0.58,
+      "fill": "B84818",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "mars_label",
+      "type": "text",
+      "x": 0.15,
+      "y": 3.05,
+      "w": 1.95,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "right"
+      },
+      "runs": [
+        {
+          "text": "MARS",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "E06828",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "EVIDENCE SUGGESTS",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "THAT LIQUID WATER MAY",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "EXIST THERE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "jupiter_body",
+      "type": "oval",
+      "x": 2.28,
+      "y": 5.28,
+      "w": 0.78,
+      "h": 0.78,
+      "fill": "E070B0"
+    },
+    {
+      "id": "jupiter_shade",
+      "type": "pie",
+      "x": 2.28,
+      "y": 5.28,
+      "w": 0.78,
+      "h": 0.78,
+      "fill": "B84888",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "jupiter_label",
+      "type": "text",
+      "x": 3.18,
+      "y": 5.22,
+      "w": 2.9,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "left"
+      },
+      "runs": [
+        {
+          "text": "JUPITER",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "E070B8",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "GAS GIANT CONSISTS",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "OF HYDROGEN & HELIUM",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "WITH NO SOLID SURFACE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "venus_body",
+      "type": "oval",
+      "x": 5.18,
+      "y": 6.28,
+      "w": 0.62,
+      "h": 0.62,
+      "fill": "D08040"
+    },
+    {
+      "id": "venus_shade",
+      "type": "pie",
+      "x": 5.18,
+      "y": 6.28,
+      "w": 0.62,
+      "h": 0.62,
+      "fill": "A85828",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "venus_label",
+      "type": "text",
+      "x": 5.95,
+      "y": 6.12,
+      "w": 2.55,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "left"
+      },
+      "runs": [
+        {
+          "text": "VENUS",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "E08040",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "THICK ATMOSPHERE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "MOSTLY COMPOSED OF",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        },
+        {
+          "text": "CARBON DIOXIDE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "left",
+          "spacing": 0.8
+        }
+      ]
+    },
+    {
+      "id": "uranus_body",
+      "type": "oval",
+      "x": 12.22,
+      "y": 5.88,
+      "w": 0.78,
+      "h": 0.78,
+      "fill": "5EC8E0"
+    },
+    {
+      "id": "uranus_shade",
+      "type": "pie",
+      "x": 12.22,
+      "y": 5.88,
+      "w": 0.78,
+      "h": 0.78,
+      "fill": "2E98B0",
+      "adj": [
+        0,
+        108
+      ],
+      "rotation": 200
+    },
+    {
+      "id": "uranus_label",
+      "type": "text",
+      "x": 8.85,
+      "y": 5.85,
+      "w": 3.2,
+      "h": 1.05,
+      "font": {
+        "name": "Arial Narrow",
+        "anchor": "top",
+        "align": "right"
+      },
+      "runs": [
+        {
+          "text": "URANUS",
+          "size": 18,
+          "bold": true,
+          "italic": true,
+          "color": "4EC0E0",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "ICE GIANT ROTATES ON",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "ITS SIDE WITH DISTINCT",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        },
+        {
+          "text": "APPEARANCE",
+          "size": 10,
+          "bold": true,
+          "italic": true,
+          "color": "F4F6FB",
+          "align": "right",
+          "spacing": 0.8
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "steps": [
+        {
+          "target": "orbit1",
+          "effect": "zoom",
+          "dur": 750,
+          "start": "on_click"
+        },
+        {
+          "target": "orbit2",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 50,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit3",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 100,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit4",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit5",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 200,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit6",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit7",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 300,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit8",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 350,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit9",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 400,
+          "start": "with_previous"
+        },
+        {
+          "target": "orbit10",
+          "effect": "zoom",
+          "dur": 750,
+          "delay": 450,
+          "start": "with_previous"
+        },
+        {
+          "target": "sun1",
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 0,
+          "start": "with_previous"
+        },
+        {
+          "target": "sun1",
+          "effect": "grow_shrink",
+          "dur": 2000,
+          "delay": 0,
+          "start": "with_previous",
+          "scale": 1.08
+        },
+        {
+          "target": "sun2",
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "target": "sun2",
+          "effect": "grow_shrink",
+          "dur": 2000,
+          "delay": 150,
+          "start": "with_previous",
+          "scale": 1.08
+        },
+        {
+          "target": "sun3",
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 300,
+          "start": "with_previous"
+        },
+        {
+          "target": "sun3",
+          "effect": "grow_shrink",
+          "dur": 2000,
+          "delay": 300,
+          "start": "with_previous",
+          "scale": 1.08
+        },
+        {
+          "target": "sun4",
+          "effect": "grow_turn",
+          "dur": 1000,
+          "delay": 450,
+          "start": "with_previous"
+        },
+        {
+          "target": "sun4",
+          "effect": "grow_shrink",
+          "dur": 2000,
+          "delay": 450,
+          "start": "with_previous",
+          "scale": 1.08
+        },
+        {
+          "target": "star1",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star1",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star2",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star2",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star3",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star3",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star4",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star4",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star5",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star5",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star6",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star6",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star7",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star7",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star8",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star8",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star9",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star9",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star10",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star10",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star11",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star11",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star12",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star12",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star13",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star13",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star14",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star14",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star15",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star15",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star16",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star16",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star17",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star17",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        },
+        {
+          "target": "star18",
+          "effect": "fade",
+          "dur": 250,
+          "start": "with_previous"
+        },
+        {
+          "target": "star18",
+          "effect": "pulse_color",
+          "dur": 2500,
+          "start": "with_previous",
+          "color": "FFE566"
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "mercury_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": false
+        },
+        {
+          "target": "mercury_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": false
+        },
+        {
+          "target": "mercury_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "mercury_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": 0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "venus_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": true
+        },
+        {
+          "target": "venus_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": true
+        },
+        {
+          "target": "venus_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "venus_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": -0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "earth_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": false
+        },
+        {
+          "target": "earth_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": false
+        },
+        {
+          "target": "earth_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "earth_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": -0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "moon_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": true
+        },
+        {
+          "target": "moon_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": true
+        },
+        {
+          "target": "moon_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "moon_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": 0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "mars_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": false
+        },
+        {
+          "target": "mars_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": false
+        },
+        {
+          "target": "mars_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "mars_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": 0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "jupiter_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": true
+        },
+        {
+          "target": "jupiter_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": true
+        },
+        {
+          "target": "jupiter_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "jupiter_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": -0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "saturn_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": false
+        },
+        {
+          "target": "saturn_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": false
+        },
+        {
+          "target": "saturn_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "saturn_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": 0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "uranus_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": true
+        },
+        {
+          "target": "uranus_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": true
+        },
+        {
+          "target": "uranus_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "uranus_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": 0.08,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "target": "neptune_body",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "on_click",
+          "clockwise": false
+        },
+        {
+          "target": "neptune_shade",
+          "effect": "spin",
+          "dur": 15000,
+          "start": "with_previous",
+          "clockwise": false
+        },
+        {
+          "target": "neptune_label",
+          "effect": "fade",
+          "dur": 250,
+          "delay": 750,
+          "start": "with_previous"
+        },
+        {
+          "target": "neptune_label",
+          "effect": "bob",
+          "dur": 2000,
+          "delay": 750,
+          "start": "with_previous",
+          "dx": -0.08,
+          "dy": 0
+        }
+      ]
+    }
+  ]
+}

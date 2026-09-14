@@ -1,0 +1,1222 @@
+{
+  "title": "Animated Infographic Slide",
+  "source_url": "https://www.youtube.com/watch?v=OZKTzpbnGOA",
+  "note": "Rebuilt from tutorial frames; geometry measured off a 96 px/in frame.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": "E6E7E9"
+  },
+  "defaults": {
+    "name": "Century Gothic",
+    "size": 12,
+    "color": "8A8A8C"
+  },
+  "transition": "fade",
+  "shapes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 3.667,
+      "y": 0.46,
+      "w": 6.0,
+      "h": 0.5,
+      "text": "INFOGRAPHIC",
+      "font": {
+        "name": "Century Gothic",
+        "size": 32,
+        "bold": false,
+        "color": "A6A6A8",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 12.5
+      }
+    },
+    {
+      "id": "dot1",
+      "type": "oval",
+      "x": 5.869,
+      "y": 1.14,
+      "w": 0.219,
+      "h": 0.219,
+      "fill": "03A1A4"
+    },
+    {
+      "id": "dot2",
+      "type": "oval",
+      "x": 6.213,
+      "y": 1.14,
+      "w": 0.219,
+      "h": 0.219,
+      "fill": "EF9523"
+    },
+    {
+      "id": "dot3",
+      "type": "oval",
+      "x": 6.557,
+      "y": 1.14,
+      "w": 0.219,
+      "h": 0.219,
+      "fill": "F12F78"
+    },
+    {
+      "id": "dot4",
+      "type": "oval",
+      "x": 6.901,
+      "y": 1.14,
+      "w": 0.219,
+      "h": 0.219,
+      "fill": "1C7BBB"
+    },
+    {
+      "id": "dot5",
+      "type": "oval",
+      "x": 7.245,
+      "y": 1.14,
+      "w": 0.219,
+      "h": 0.219,
+      "fill": "3B5A23"
+    },
+    {
+      "id": "card1",
+      "type": "roundRect",
+      "x": 1.625,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 4.25,
+      "fill": "F1F1F2",
+      "adj": 0.105,
+      "shadow": {
+        "blur": 16,
+        "dist": 5,
+        "alpha": 0.2
+      }
+    },
+    {
+      "id": "cap1",
+      "type": "round2SameRect",
+      "x": 1.625,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 1.02,
+      "fill": "F12F78",
+      "adj": [
+        0.176,
+        0.0
+      ]
+    },
+    {
+      "id": "badge1",
+      "type": "oval",
+      "x": 2.0,
+      "y": 2.938,
+      "w": 1.0,
+      "h": 1.0,
+      "fill": "F12F78"
+    },
+    {
+      "id": "plan1",
+      "type": "text",
+      "x": 1.625,
+      "y": 2.56,
+      "w": 1.75,
+      "h": 0.32,
+      "text": "PLAN",
+      "font": {
+        "name": "Century Gothic",
+        "size": 22,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.5
+      }
+    },
+    {
+      "id": "num1",
+      "type": "text",
+      "x": 1.625,
+      "y": 3.0,
+      "w": 1.75,
+      "h": 0.68,
+      "text": "1",
+      "font": {
+        "name": "Century Gothic",
+        "size": 40,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "heading1",
+      "type": "text",
+      "x": 1.625,
+      "y": 4.26,
+      "w": 1.75,
+      "h": 0.28,
+      "text": "HEADING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 16,
+        "bold": true,
+        "color": "F12F78",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body1",
+      "type": "text",
+      "x": 1.525,
+      "y": 4.57,
+      "w": 1.95,
+      "h": 0.48,
+      "text": "Here Add Some\nOwn Text of Yours",
+      "font": {
+        "name": "Century Gothic",
+        "size": 11.5,
+        "bold": true,
+        "color": "8A8A8C",
+        "align": "center",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "bulb1",
+      "type": "oval",
+      "x": 2.23,
+      "y": 5.51,
+      "w": 0.54,
+      "h": 0.6,
+      "fill": null,
+      "line": {
+        "color": "F12F78",
+        "width": 2.25,
+        "round_ends": true
+      }
+    },
+    {
+      "id": "band1_1",
+      "type": "roundRect",
+      "x": 2.39,
+      "y": 6.14,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "F12F78",
+      "adj": 0.5
+    },
+    {
+      "id": "band1_2",
+      "type": "roundRect",
+      "x": 2.39,
+      "y": 6.21,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "F12F78",
+      "adj": 0.5
+    },
+    {
+      "id": "band1_3",
+      "type": "roundRect",
+      "x": 2.39,
+      "y": 6.28,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "F12F78",
+      "adj": 0.5
+    },
+    {
+      "id": "ray1_1",
+      "type": "roundRect",
+      "x": 2.845,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 0
+    },
+    {
+      "id": "ray1_2",
+      "type": "roundRect",
+      "x": 2.7887,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 330
+    },
+    {
+      "id": "ray1_3",
+      "type": "roundRect",
+      "x": 2.635,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 300
+    },
+    {
+      "id": "ray1_4",
+      "type": "roundRect",
+      "x": 2.425,
+      "y": 5.365,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 270
+    },
+    {
+      "id": "ray1_5",
+      "type": "roundRect",
+      "x": 2.215,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 240
+    },
+    {
+      "id": "ray1_6",
+      "type": "roundRect",
+      "x": 2.0613,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 210
+    },
+    {
+      "id": "ray1_7",
+      "type": "roundRect",
+      "x": 2.005,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "F12F78",
+      "adj": 0.5,
+      "rotation": 180
+    },
+    {
+      "id": "card2",
+      "type": "roundRect",
+      "x": 4.396,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 4.25,
+      "fill": "F1F1F2",
+      "adj": 0.105,
+      "shadow": {
+        "blur": 16,
+        "dist": 5,
+        "alpha": 0.2
+      }
+    },
+    {
+      "id": "cap2",
+      "type": "round2SameRect",
+      "x": 4.396,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 1.02,
+      "fill": "03A1A4",
+      "adj": [
+        0.176,
+        0.0
+      ]
+    },
+    {
+      "id": "badge2",
+      "type": "oval",
+      "x": 4.771,
+      "y": 2.938,
+      "w": 1.0,
+      "h": 1.0,
+      "fill": "03A1A4"
+    },
+    {
+      "id": "plan2",
+      "type": "text",
+      "x": 4.396,
+      "y": 2.56,
+      "w": 1.75,
+      "h": 0.32,
+      "text": "PLAN",
+      "font": {
+        "name": "Century Gothic",
+        "size": 22,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.5
+      }
+    },
+    {
+      "id": "num2",
+      "type": "text",
+      "x": 4.396,
+      "y": 3.0,
+      "w": 1.75,
+      "h": 0.68,
+      "text": "2",
+      "font": {
+        "name": "Century Gothic",
+        "size": 40,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "heading2",
+      "type": "text",
+      "x": 4.396,
+      "y": 4.26,
+      "w": 1.75,
+      "h": 0.28,
+      "text": "HEADING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 16,
+        "bold": true,
+        "color": "03A1A4",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body2",
+      "type": "text",
+      "x": 4.296,
+      "y": 4.57,
+      "w": 1.95,
+      "h": 0.48,
+      "text": "Here Add Some\nOwn Text of Yours",
+      "font": {
+        "name": "Century Gothic",
+        "size": 11.5,
+        "bold": true,
+        "color": "8A8A8C",
+        "align": "center",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "bulb2",
+      "type": "oval",
+      "x": 5.001,
+      "y": 5.51,
+      "w": 0.54,
+      "h": 0.6,
+      "fill": null,
+      "line": {
+        "color": "03A1A4",
+        "width": 2.25,
+        "round_ends": true
+      }
+    },
+    {
+      "id": "band2_1",
+      "type": "roundRect",
+      "x": 5.161,
+      "y": 6.14,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "03A1A4",
+      "adj": 0.5
+    },
+    {
+      "id": "band2_2",
+      "type": "roundRect",
+      "x": 5.161,
+      "y": 6.21,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "03A1A4",
+      "adj": 0.5
+    },
+    {
+      "id": "band2_3",
+      "type": "roundRect",
+      "x": 5.161,
+      "y": 6.28,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "03A1A4",
+      "adj": 0.5
+    },
+    {
+      "id": "ray2_1",
+      "type": "roundRect",
+      "x": 5.616,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 0
+    },
+    {
+      "id": "ray2_2",
+      "type": "roundRect",
+      "x": 5.5597,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 330
+    },
+    {
+      "id": "ray2_3",
+      "type": "roundRect",
+      "x": 5.406,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 300
+    },
+    {
+      "id": "ray2_4",
+      "type": "roundRect",
+      "x": 5.196,
+      "y": 5.365,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 270
+    },
+    {
+      "id": "ray2_5",
+      "type": "roundRect",
+      "x": 4.986,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 240
+    },
+    {
+      "id": "ray2_6",
+      "type": "roundRect",
+      "x": 4.8323,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 210
+    },
+    {
+      "id": "ray2_7",
+      "type": "roundRect",
+      "x": 4.776,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "03A1A4",
+      "adj": 0.5,
+      "rotation": 180
+    },
+    {
+      "id": "card3",
+      "type": "roundRect",
+      "x": 7.167,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 4.25,
+      "fill": "F1F1F2",
+      "adj": 0.105,
+      "shadow": {
+        "blur": 16,
+        "dist": 5,
+        "alpha": 0.2
+      }
+    },
+    {
+      "id": "cap3",
+      "type": "round2SameRect",
+      "x": 7.167,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 1.02,
+      "fill": "EF9523",
+      "adj": [
+        0.176,
+        0.0
+      ]
+    },
+    {
+      "id": "badge3",
+      "type": "oval",
+      "x": 7.542,
+      "y": 2.938,
+      "w": 1.0,
+      "h": 1.0,
+      "fill": "EF9523"
+    },
+    {
+      "id": "plan3",
+      "type": "text",
+      "x": 7.167,
+      "y": 2.56,
+      "w": 1.75,
+      "h": 0.32,
+      "text": "PLAN",
+      "font": {
+        "name": "Century Gothic",
+        "size": 22,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.5
+      }
+    },
+    {
+      "id": "num3",
+      "type": "text",
+      "x": 7.167,
+      "y": 3.0,
+      "w": 1.75,
+      "h": 0.68,
+      "text": "3",
+      "font": {
+        "name": "Century Gothic",
+        "size": 40,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "heading3",
+      "type": "text",
+      "x": 7.167,
+      "y": 4.26,
+      "w": 1.75,
+      "h": 0.28,
+      "text": "HEADING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 16,
+        "bold": true,
+        "color": "EF9523",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body3",
+      "type": "text",
+      "x": 7.067,
+      "y": 4.57,
+      "w": 1.95,
+      "h": 0.48,
+      "text": "Here Add Some\nOwn Text of Yours",
+      "font": {
+        "name": "Century Gothic",
+        "size": 11.5,
+        "bold": true,
+        "color": "8A8A8C",
+        "align": "center",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "bulb3",
+      "type": "oval",
+      "x": 7.772,
+      "y": 5.51,
+      "w": 0.54,
+      "h": 0.6,
+      "fill": null,
+      "line": {
+        "color": "EF9523",
+        "width": 2.25,
+        "round_ends": true
+      }
+    },
+    {
+      "id": "band3_1",
+      "type": "roundRect",
+      "x": 7.932,
+      "y": 6.14,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "EF9523",
+      "adj": 0.5
+    },
+    {
+      "id": "band3_2",
+      "type": "roundRect",
+      "x": 7.932,
+      "y": 6.21,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "EF9523",
+      "adj": 0.5
+    },
+    {
+      "id": "band3_3",
+      "type": "roundRect",
+      "x": 7.932,
+      "y": 6.28,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "EF9523",
+      "adj": 0.5
+    },
+    {
+      "id": "ray3_1",
+      "type": "roundRect",
+      "x": 8.387,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 0
+    },
+    {
+      "id": "ray3_2",
+      "type": "roundRect",
+      "x": 8.3307,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 330
+    },
+    {
+      "id": "ray3_3",
+      "type": "roundRect",
+      "x": 8.177,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 300
+    },
+    {
+      "id": "ray3_4",
+      "type": "roundRect",
+      "x": 7.967,
+      "y": 5.365,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 270
+    },
+    {
+      "id": "ray3_5",
+      "type": "roundRect",
+      "x": 7.757,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 240
+    },
+    {
+      "id": "ray3_6",
+      "type": "roundRect",
+      "x": 7.6033,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 210
+    },
+    {
+      "id": "ray3_7",
+      "type": "roundRect",
+      "x": 7.547,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "EF9523",
+      "adj": 0.5,
+      "rotation": 180
+    },
+    {
+      "id": "card4",
+      "type": "roundRect",
+      "x": 9.938,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 4.25,
+      "fill": "F1F1F2",
+      "adj": 0.105,
+      "shadow": {
+        "blur": 16,
+        "dist": 5,
+        "alpha": 0.2
+      }
+    },
+    {
+      "id": "cap4",
+      "type": "round2SameRect",
+      "x": 9.938,
+      "y": 2.42,
+      "w": 1.75,
+      "h": 1.02,
+      "fill": "1C7BBB",
+      "adj": [
+        0.176,
+        0.0
+      ]
+    },
+    {
+      "id": "badge4",
+      "type": "oval",
+      "x": 10.313,
+      "y": 2.938,
+      "w": 1.0,
+      "h": 1.0,
+      "fill": "1C7BBB"
+    },
+    {
+      "id": "plan4",
+      "type": "text",
+      "x": 9.938,
+      "y": 2.56,
+      "w": 1.75,
+      "h": 0.32,
+      "text": "PLAN",
+      "font": {
+        "name": "Century Gothic",
+        "size": 22,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.5
+      }
+    },
+    {
+      "id": "num4",
+      "type": "text",
+      "x": 9.938,
+      "y": 3.0,
+      "w": 1.75,
+      "h": 0.68,
+      "text": "4",
+      "font": {
+        "name": "Century Gothic",
+        "size": 40,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "heading4",
+      "type": "text",
+      "x": 9.938,
+      "y": 4.26,
+      "w": 1.75,
+      "h": 0.28,
+      "text": "HEADING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 16,
+        "bold": true,
+        "color": "1C7BBB",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body4",
+      "type": "text",
+      "x": 9.838,
+      "y": 4.57,
+      "w": 1.95,
+      "h": 0.48,
+      "text": "Here Add Some\nOwn Text of Yours",
+      "font": {
+        "name": "Century Gothic",
+        "size": 11.5,
+        "bold": true,
+        "color": "8A8A8C",
+        "align": "center",
+        "anchor": "middle",
+        "line_spacing": 1.05
+      }
+    },
+    {
+      "id": "bulb4",
+      "type": "oval",
+      "x": 10.543,
+      "y": 5.51,
+      "w": 0.54,
+      "h": 0.6,
+      "fill": null,
+      "line": {
+        "color": "1C7BBB",
+        "width": 2.25,
+        "round_ends": true
+      }
+    },
+    {
+      "id": "band4_1",
+      "type": "roundRect",
+      "x": 10.703,
+      "y": 6.14,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "1C7BBB",
+      "adj": 0.5
+    },
+    {
+      "id": "band4_2",
+      "type": "roundRect",
+      "x": 10.703,
+      "y": 6.21,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "1C7BBB",
+      "adj": 0.5
+    },
+    {
+      "id": "band4_3",
+      "type": "roundRect",
+      "x": 10.703,
+      "y": 6.28,
+      "w": 0.22,
+      "h": 0.045,
+      "fill": "1C7BBB",
+      "adj": 0.5
+    },
+    {
+      "id": "ray4_1",
+      "type": "roundRect",
+      "x": 11.158,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 0
+    },
+    {
+      "id": "ray4_2",
+      "type": "roundRect",
+      "x": 11.1017,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 330
+    },
+    {
+      "id": "ray4_3",
+      "type": "roundRect",
+      "x": 10.948,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 300
+    },
+    {
+      "id": "ray4_4",
+      "type": "roundRect",
+      "x": 10.738,
+      "y": 5.365,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 270
+    },
+    {
+      "id": "ray4_5",
+      "type": "roundRect",
+      "x": 10.528,
+      "y": 5.4213,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 240
+    },
+    {
+      "id": "ray4_6",
+      "type": "roundRect",
+      "x": 10.3743,
+      "y": 5.575,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 210
+    },
+    {
+      "id": "ray4_7",
+      "type": "roundRect",
+      "x": 10.318,
+      "y": 5.785,
+      "w": 0.15,
+      "h": 0.05,
+      "fill": "1C7BBB",
+      "adj": 0.5,
+      "rotation": 180
+    }
+  ],
+  "animations": [
+    {
+      "steps": [
+        {
+          "target": "title",
+          "effect": "fade",
+          "dur": 600,
+          "start": "on_click"
+        },
+        {
+          "targets": [
+            "dot1",
+            "dot2",
+            "dot3",
+            "dot4",
+            "dot5"
+          ],
+          "effect": "zoom",
+          "dur": 400,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "card1",
+            "cap1"
+          ],
+          "effect": "float_up",
+          "dur": 500,
+          "delay": 250,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "badge1",
+            "num1",
+            "plan1"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "heading1",
+            "body1"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 350,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "bulb1",
+            "band1_1",
+            "band1_2",
+            "band1_3",
+            "ray1_1",
+            "ray1_2",
+            "ray1_3",
+            "ray1_4",
+            "ray1_5",
+            "ray1_6",
+            "ray1_7"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 500,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "card2",
+            "cap2"
+          ],
+          "effect": "float_up",
+          "dur": 500,
+          "delay": 250,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "badge2",
+            "num2",
+            "plan2"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "heading2",
+            "body2"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 350,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "bulb2",
+            "band2_1",
+            "band2_2",
+            "band2_3",
+            "ray2_1",
+            "ray2_2",
+            "ray2_3",
+            "ray2_4",
+            "ray2_5",
+            "ray2_6",
+            "ray2_7"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 500,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "card3",
+            "cap3"
+          ],
+          "effect": "float_up",
+          "dur": 500,
+          "delay": 250,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "badge3",
+            "num3",
+            "plan3"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "heading3",
+            "body3"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 350,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "bulb3",
+            "band3_1",
+            "band3_2",
+            "band3_3",
+            "ray3_1",
+            "ray3_2",
+            "ray3_3",
+            "ray3_4",
+            "ray3_5",
+            "ray3_6",
+            "ray3_7"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 500,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "card4",
+            "cap4"
+          ],
+          "effect": "float_up",
+          "dur": 500,
+          "delay": 250,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "badge4",
+            "num4",
+            "plan4"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 150,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "heading4",
+            "body4"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 350,
+          "start": "with_previous"
+        },
+        {
+          "targets": [
+            "bulb4",
+            "band4_1",
+            "band4_2",
+            "band4_3",
+            "ray4_1",
+            "ray4_2",
+            "ray4_3",
+            "ray4_4",
+            "ray4_5",
+            "ray4_6",
+            "ray4_7"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 500,
+          "start": "with_previous"
+        }
+      ]
+    }
+  ]
+}

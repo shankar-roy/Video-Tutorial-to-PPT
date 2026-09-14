@@ -1,0 +1,20 @@
+# Capture working directory: downloaded video and sampled frames
+work/
+*.mp4
+*.webm
+*.vtt
+
+# Build output
+*.pptx
+*.png
+*.jpg
+!docs/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store

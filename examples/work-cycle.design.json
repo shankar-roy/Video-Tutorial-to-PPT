@@ -1,0 +1,1240 @@
+{
+  "title": "Work Cycle",
+  "source_url": "https://www.youtube.com/watch?v=N1lfbH7ylEo",
+  "note": "Rebuilt from tutorial frames; geometry measured off a 96 px/in frame.",
+  "canvas": {
+    "w_in": 13.333,
+    "h_in": 7.5,
+    "bg": "E6E7E9"
+  },
+  "defaults": {
+    "name": "Century Gothic",
+    "size": 13,
+    "color": "A9AAAC"
+  },
+  "transition": "fade",
+  "shapes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 3.667,
+      "y": 0.34,
+      "w": 6.0,
+      "h": 0.56,
+      "text": "WORK CYCLE",
+      "font": {
+        "name": "Century Gothic",
+        "size": 40,
+        "color": "A6A6A8",
+        "align": "center",
+        "anchor": "middle",
+        "spacing": 9
+      }
+    },
+    {
+      "id": "dot1",
+      "type": "oval",
+      "x": 5.877,
+      "y": 1.05,
+      "w": 0.229,
+      "h": 0.229,
+      "fill": "03A1A4"
+    },
+    {
+      "id": "dot2",
+      "type": "oval",
+      "x": 6.2145,
+      "y": 1.05,
+      "w": 0.229,
+      "h": 0.229,
+      "fill": "EF9523"
+    },
+    {
+      "id": "dot3",
+      "type": "oval",
+      "x": 6.552,
+      "y": 1.05,
+      "w": 0.229,
+      "h": 0.229,
+      "fill": "F12F78"
+    },
+    {
+      "id": "dot4",
+      "type": "oval",
+      "x": 6.8895,
+      "y": 1.05,
+      "w": 0.229,
+      "h": 0.229,
+      "fill": "1C7BBB"
+    },
+    {
+      "id": "dot5",
+      "type": "oval",
+      "x": 7.227,
+      "y": 1.05,
+      "w": 0.229,
+      "h": 0.229,
+      "fill": "3B5A23"
+    },
+    {
+      "id": "circle1",
+      "type": "oval",
+      "x": 2.543,
+      "y": 3.881,
+      "w": 0.79,
+      "h": 0.79,
+      "fill": "ED2E74"
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "points": [
+        [
+          2.740816,
+          4.136328
+        ],
+        [
+          2.81476,
+          4.136328
+        ],
+        [
+          2.888704,
+          4.349944
+        ],
+        [
+          3.094104,
+          4.349944
+        ],
+        [
+          3.1434,
+          4.19384
+        ],
+        [
+          2.847624,
+          4.19384
+        ]
+      ],
+      "id": "icon1_body",
+      "fill": null
+    },
+    {
+      "type": "oval",
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "x": 2.929784,
+      "y": 4.39924,
+      "w": 0.06983600000000001,
+      "h": 0.06983600000000001,
+      "id": "icon1_wheel0",
+      "fill": null
+    },
+    {
+      "type": "oval",
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "x": 3.06124,
+      "y": 4.39924,
+      "w": 0.06983600000000001,
+      "h": 0.06983600000000001,
+      "id": "icon1_wheel1",
+      "fill": null
+    },
+    {
+      "id": "lead1",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "ED2E74",
+        "width": 1.5
+      },
+      "points": [
+        [
+          0.66,
+          3.24
+        ],
+        [
+          2.28,
+          3.24
+        ],
+        [
+          2.7262,
+          3.9426
+        ]
+      ]
+    },
+    {
+      "id": "num1",
+      "type": "text",
+      "x": 0.33,
+      "y": 2.63,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "01",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "ED2E74",
+        "align": "right",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head1",
+      "type": "text",
+      "x": 0.33,
+      "y": 2.9,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "ED2E74",
+        "align": "right",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body1",
+      "type": "text",
+      "x": 0.33,
+      "y": 3.31,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "right",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "circle2",
+      "type": "oval",
+      "x": 3.528,
+      "y": 4.028,
+      "w": 1.32,
+      "h": 1.32,
+      "fill": "ED9623"
+    },
+    {
+      "type": "roundRect",
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.44,
+        "round_ends": true
+      },
+      "adj": 0.1,
+      "x": 3.8447999999999998,
+      "y": 4.385984,
+      "w": 0.6864,
+      "h": 0.48047999999999996,
+      "id": "icon2_screen",
+      "fill": null
+    },
+    {
+      "type": "rect",
+      "fill": "FFFFFF",
+      "x": 4.139952,
+      "y": 4.866464,
+      "w": 0.09609600000000001,
+      "h": 0.109824,
+      "id": "icon2_neck"
+    },
+    {
+      "type": "roundRect",
+      "fill": "FFFFFF",
+      "adj": 0.5,
+      "x": 3.98208,
+      "y": 4.96256,
+      "w": 0.41184,
+      "h": 0.061776,
+      "id": "icon2_base"
+    },
+    {
+      "type": "roundRect",
+      "fill": "FFFFFF",
+      "adj": 0.5,
+      "x": 3.98208,
+      "y": 4.523263999999999,
+      "w": 0.23337600000000003,
+      "h": 0.04804800000000001,
+      "id": "icon2_barL"
+    },
+    {
+      "type": "roundRect",
+      "fill": "FFFFFF",
+      "adj": 0.5,
+      "x": 3.98208,
+      "y": 4.6193599999999995,
+      "w": 0.13728,
+      "h": 0.04804800000000001,
+      "id": "icon2_barS"
+    },
+    {
+      "type": "oval",
+      "fill": "FFFFFF",
+      "x": 4.25664,
+      "y": 4.688,
+      "w": 0.089232,
+      "h": 0.089232,
+      "id": "icon2_dot"
+    },
+    {
+      "id": "lead2",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "ED9623",
+        "width": 1.5
+      },
+      "points": [
+        [
+          1.918,
+          6.39
+        ],
+        [
+          3.538,
+          6.39
+        ],
+        [
+          3.9525,
+          5.3046
+        ]
+      ]
+    },
+    {
+      "id": "num2",
+      "type": "text",
+      "x": 1.588,
+      "y": 5.78,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "02",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "ED9623",
+        "align": "right",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head2",
+      "type": "text",
+      "x": 1.588,
+      "y": 6.05,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "ED9623",
+        "align": "right",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body2",
+      "type": "text",
+      "x": 1.588,
+      "y": 6.46,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "right",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "circle3",
+      "type": "oval",
+      "x": 4.974,
+      "y": 3.016,
+      "w": 2.01,
+      "h": 2.01,
+      "fill": "119FA1"
+    },
+    {
+      "type": "freeform",
+      "close": true,
+      "line": {
+        "color": "FFFFFF",
+        "width": 2.19,
+        "round_ends": true
+      },
+      "points": [
+        [
+          5.707248,
+          3.519304
+        ],
+        [
+          6.250752,
+          3.519304
+        ],
+        [
+          6.114876,
+          3.70744
+        ],
+        [
+          5.843124,
+          3.70744
+        ]
+      ],
+      "id": "icon3_tie",
+      "fill": null
+    },
+    {
+      "type": "oval",
+      "line": {
+        "color": "FFFFFF",
+        "width": 2.19,
+        "round_ends": true
+      },
+      "x": 5.5400160000000005,
+      "y": 3.70744,
+      "w": 0.8779679999999999,
+      "h": 0.815256,
+      "id": "icon3_body",
+      "fill": null
+    },
+    {
+      "type": "text",
+      "fill": null,
+      "x": 5.66544,
+      "y": 3.853768,
+      "w": 0.6271199999999999,
+      "h": 0.5226,
+      "text": "$",
+      "font": {
+        "name": "Century Gothic",
+        "size": 27.175199999999997,
+        "bold": true,
+        "color": "FFFFFF",
+        "align": "center",
+        "anchor": "middle"
+      },
+      "id": "icon3_glyph"
+    },
+    {
+      "id": "lead3",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "119FA1",
+        "width": 1.5
+      },
+      "points": [
+        [
+          3.293,
+          2.44
+        ],
+        [
+          4.913,
+          2.44
+        ],
+        [
+          5.4172,
+          3.1877
+        ]
+      ]
+    },
+    {
+      "id": "num3",
+      "type": "text",
+      "x": 2.963,
+      "y": 1.83,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "03",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "119FA1",
+        "align": "right",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head3",
+      "type": "text",
+      "x": 2.963,
+      "y": 2.1,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "119FA1",
+        "align": "right",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body3",
+      "type": "text",
+      "x": 2.963,
+      "y": 2.51,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "right",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "circle4",
+      "type": "oval",
+      "x": 7.162,
+      "y": 4.172,
+      "w": 1.01,
+      "h": 1.01,
+      "fill": "395723"
+    },
+    {
+      "type": "freeform",
+      "close": true,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "points": [
+        [
+          7.435912,
+          4.592968
+        ],
+        [
+          7.530448,
+          4.456416
+        ],
+        [
+          7.803552,
+          4.456416
+        ],
+        [
+          7.8980879999999996,
+          4.592968
+        ],
+        [
+          7.667,
+          4.918591999999999
+        ]
+      ],
+      "id": "icon4_body",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "points": [
+        [
+          7.435912,
+          4.592968
+        ],
+        [
+          7.8980879999999996,
+          4.592968
+        ]
+      ],
+      "id": "icon4_facet",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "points": [
+        [
+          7.530448,
+          4.456416
+        ],
+        [
+          7.593472,
+          4.592968
+        ],
+        [
+          7.667,
+          4.918591999999999
+        ]
+      ],
+      "id": "icon4_facetL",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.1,
+        "round_ends": true
+      },
+      "points": [
+        [
+          7.803552,
+          4.456416
+        ],
+        [
+          7.740527999999999,
+          4.592968
+        ],
+        [
+          7.667,
+          4.918591999999999
+        ]
+      ],
+      "id": "icon4_facetR",
+      "fill": null
+    },
+    {
+      "id": "lead4",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "395723",
+        "width": 1.5
+      },
+      "points": [
+        [
+          9.957,
+          3.03
+        ],
+        [
+          8.247,
+          3.03
+        ],
+        [
+          7.8347,
+          4.2007
+        ]
+      ]
+    },
+    {
+      "id": "num4",
+      "type": "text",
+      "x": 8.667,
+      "y": 2.42,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "04",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "395723",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head4",
+      "type": "text",
+      "x": 8.667,
+      "y": 2.69,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "395723",
+        "align": "left",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body4",
+      "type": "text",
+      "x": 8.667,
+      "y": 3.1,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "circle5",
+      "type": "oval",
+      "x": 8.39,
+      "y": 4.279,
+      "w": 1.49,
+      "h": 1.49,
+      "fill": "01B0F1"
+    },
+    {
+      "type": "freeform",
+      "close": true,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.63,
+        "round_ends": true
+      },
+      "points": [
+        [
+          8.763095999999999,
+          4.993008
+        ],
+        [
+          9.506904,
+          4.698584
+        ],
+        [
+          9.181488,
+          5.380408
+        ],
+        [
+          9.104008,
+          5.1014800000000005
+        ]
+      ],
+      "id": "icon5_body",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.63,
+        "round_ends": true
+      },
+      "points": [
+        [
+          9.104008,
+          5.1014800000000005
+        ],
+        [
+          9.506904,
+          4.698584
+        ]
+      ],
+      "id": "icon5_fold",
+      "fill": null
+    },
+    {
+      "id": "lead5",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "01B0F1",
+        "width": 1.5
+      },
+      "points": [
+        [
+          11.269,
+          6.45
+        ],
+        [
+          9.559,
+          6.45
+        ],
+        [
+          9.3473,
+          5.7381
+        ]
+      ]
+    },
+    {
+      "id": "num5",
+      "type": "text",
+      "x": 9.979,
+      "y": 5.84,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "05",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "01B0F1",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head5",
+      "type": "text",
+      "x": 9.979,
+      "y": 6.11,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "01B0F1",
+        "align": "left",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body5",
+      "type": "text",
+      "x": 9.979,
+      "y": 6.52,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    },
+    {
+      "id": "circle6",
+      "type": "oval",
+      "x": 9.892,
+      "y": 3.736,
+      "w": 1.06,
+      "h": 1.06,
+      "fill": "ED2E74"
+    },
+    {
+      "type": "roundRect",
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.16,
+        "round_ends": true
+      },
+      "adj": 0.12,
+      "x": 10.20152,
+      "y": 4.133712,
+      "w": 0.44096,
+      "h": 0.38584,
+      "id": "icon6_body",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.16,
+        "round_ends": true
+      },
+      "points": [
+        [
+          10.3062,
+          4.1337
+        ],
+        [
+          10.3102,
+          4.1038
+        ],
+        [
+          10.3218,
+          4.0758
+        ],
+        [
+          10.3402,
+          4.0519
+        ],
+        [
+          10.3641,
+          4.0335
+        ],
+        [
+          10.392,
+          4.0219
+        ],
+        [
+          10.422,
+          4.018
+        ],
+        [
+          10.452,
+          4.0219
+        ],
+        [
+          10.4799,
+          4.0335
+        ],
+        [
+          10.5038,
+          4.0519
+        ],
+        [
+          10.5222,
+          4.0758
+        ],
+        [
+          10.5338,
+          4.1038
+        ],
+        [
+          10.5378,
+          4.1337
+        ]
+      ],
+      "id": "icon6_handle",
+      "fill": null
+    },
+    {
+      "type": "freeform",
+      "close": false,
+      "line": {
+        "color": "FFFFFF",
+        "width": 1.16,
+        "round_ends": true
+      },
+      "points": [
+        [
+          10.333808000000001,
+          4.310096
+        ],
+        [
+          10.399952,
+          4.37624
+        ],
+        [
+          10.521216,
+          4.232928
+        ]
+      ],
+      "id": "icon6_check",
+      "fill": null
+    },
+    {
+      "id": "lead6",
+      "type": "freeform",
+      "close": false,
+      "fill": null,
+      "line": {
+        "color": "ED2E74",
+        "width": 1.5
+      },
+      "points": [
+        [
+          12.602,
+          2.65
+        ],
+        [
+          10.892,
+          2.65
+        ],
+        [
+          10.57,
+          3.7571
+        ]
+      ]
+    },
+    {
+      "id": "num6",
+      "type": "text",
+      "x": 11.312,
+      "y": 2.04,
+      "w": 1.62,
+      "h": 0.3,
+      "text": "06",
+      "font": {
+        "name": "Century Gothic",
+        "size": 26,
+        "color": "ED2E74",
+        "align": "left",
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "head6",
+      "type": "text",
+      "x": 11.312,
+      "y": 2.31,
+      "w": 1.62,
+      "h": 0.28,
+      "text": "SHOPPING",
+      "font": {
+        "name": "Century Gothic",
+        "size": 21,
+        "bold": true,
+        "color": "ED2E74",
+        "align": "left",
+        "anchor": "middle",
+        "spacing": 0.4
+      }
+    },
+    {
+      "id": "body6",
+      "type": "text",
+      "x": 11.312,
+      "y": 2.72,
+      "w": 1.62,
+      "h": 0.62,
+      "text": "Add Some Brief\nText to Explain",
+      "font": {
+        "name": "Century Gothic",
+        "size": 13,
+        "color": "A9AAAC",
+        "align": "left",
+        "anchor": "middle",
+        "line_spacing": 1.12
+      }
+    }
+  ],
+  "animations": [
+    {
+      "steps": [
+        {
+          "target": "title",
+          "effect": "fade",
+          "dur": 600,
+          "start": "on_click"
+        },
+        {
+          "targets": [
+            "dot1",
+            "dot2",
+            "dot3",
+            "dot4",
+            "dot5"
+          ],
+          "effect": "zoom",
+          "dur": 400,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle1",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon1_body",
+            "icon1_wheel0",
+            "icon1_wheel1"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead1",
+            "num1",
+            "head1",
+            "body1"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle2",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon2_screen",
+            "icon2_neck",
+            "icon2_base",
+            "icon2_barL",
+            "icon2_barS",
+            "icon2_dot"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead2",
+            "num2",
+            "head2",
+            "body2"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle3",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon3_tie",
+            "icon3_body",
+            "icon3_glyph"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead3",
+            "num3",
+            "head3",
+            "body3"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle4",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon4_body",
+            "icon4_facet",
+            "icon4_facetL",
+            "icon4_facetR"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead4",
+            "num4",
+            "head4",
+            "body4"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle5",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon5_body",
+            "icon5_fold"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead5",
+            "num5",
+            "head5",
+            "body5"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "target": "circle6",
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "icon6_body",
+            "icon6_handle",
+            "icon6_check"
+          ],
+          "effect": "zoom",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        },
+        {
+          "targets": [
+            "lead6",
+            "num6",
+            "head6",
+            "body6"
+          ],
+          "effect": "fade",
+          "dur": 500,
+          "delay": 100,
+          "start": "after_previous"
+        }
+      ]
+    }
+  ]
+}

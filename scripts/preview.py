@@ -87,8 +87,9 @@ def fill_color(spec):
     if isinstance(spec, str):
         return rgb(spec)
     if spec.get("stops"):
-        # flat approximation: the preview checks layout, not gradients
-        return rgb(spec["stops"][0][0])
+        colors = [rgb(stop[0]) for stop in spec["stops"]]
+        n = max(1, len(colors))
+        return tuple(sum(c[i] for c in colors) // n for i in range(3))
     return rgb(spec.get("color", "FFFFFF"))
 
 
@@ -158,8 +159,10 @@ def draw_shape_on(layer, canvas: Canvas, spec: dict, color, outline=None, width=
     elif kind == "freeform":
         points = [(canvas.px(x), canvas.px(y)) for x, y in spec.get("points", [])]
         if len(points) >= 2:
-            if spec.get("close", True) and color:
+            if spec.get("close", True):
                 draw.polygon(points, fill=color, outline=outline)
+                if outline and width > 1:
+                    draw.line(points + [points[0]], fill=outline, width=width)
             else:
                 draw.line(points, fill=outline or color, width=max(1, width))
     elif kind in ("text", "picture"):
